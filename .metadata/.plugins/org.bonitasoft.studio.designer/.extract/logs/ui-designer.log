@@ -1,0 +1,263 @@
+17:27:49 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 
+17:27:49 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - d8888b.  .d88b.  d8b   db d888888b d888888b  .d8b.    .d8888.  .d88b.  d88888b d888888b
+17:27:49 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88  `8D .8P  Y8. 888o  88   `88'   `~~88~~' d8' `8b   88'  YP .8P  Y8. 88'     `~~88~~'
+17:27:49 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88oooY' 88    88 88V8o 88    88       88    88ooo88   `8bo.   88    88 88ooo      88  
+17:27:49 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88~~~b. 88    88 88 V8o88    88       88    88~~~88     `Y8b. 88    88 88~~~      88  
+17:27:49 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88   8D `8b  d8' 88  V888   .88.      88    88   88   db   8D `8b  d8' 88         88   
+17:27:49 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - Y8888P'  `Y88P'  VP   V8P Y888888P    YP    YP   YP   `8888Y'  `Y88P'  YP         YP   
+17:27:49 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - ====================================================================================================
+17:27:49 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - UI-DESIGNER : Community edition v.1.9.57
+17:27:49 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - ====================================================================================================
+17:27:49 [localhost-startStop-1] INFO  o.s.w.c.ContextLoader - Root WebApplicationContext: initialization started
+17:27:50 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+17:27:50 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+17:27:51 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+17:27:51 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+17:27:51 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+17:27:51 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+17:27:53 [localhost-startStop-1] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 5.4.1.Final
+17:27:53 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+17:27:53 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+17:28:10 [localhost-startStop-1] INFO  o.b.w.d.c.WebMvcConfiguration - Adding welcome page: file:/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/.metadata/.plugins/org.bonitasoft.studio.designer/.extract/webapps/bonita/WEB-INF/classes/static/index.html
+17:28:11 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+17:28:11 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+17:28:11 [localhost-startStop-1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+17:28:11 [localhost-startStop-1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+17:28:11 [localhost-startStop-1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+17:28:12 [localhost-startStop-1] INFO  o.s.w.c.ContextLoader - Root WebApplicationContext initialized in 22471 ms
+17:28:15 [localhost-startStop-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcher'
+17:28:16 [localhost-startStop-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 81 ms
+17:29:06 [localhost-startStop-2] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+17:29:06 [localhost-startStop-2] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+17:29:06 [localhost-startStop-2] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+17:29:06 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+17:29:06 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+17:29:06 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+17:29:06 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+17:30:29 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 
+17:30:29 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - d8888b.  .d88b.  d8b   db d888888b d888888b  .d8b.    .d8888.  .d88b.  d88888b d888888b
+17:30:29 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88  `8D .8P  Y8. 888o  88   `88'   `~~88~~' d8' `8b   88'  YP .8P  Y8. 88'     `~~88~~'
+17:30:29 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88oooY' 88    88 88V8o 88    88       88    88ooo88   `8bo.   88    88 88ooo      88  
+17:30:29 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88~~~b. 88    88 88 V8o88    88       88    88~~~88     `Y8b. 88    88 88~~~      88  
+17:30:29 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88   8D `8b  d8' 88  V888   .88.      88    88   88   db   8D `8b  d8' 88         88   
+17:30:29 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - Y8888P'  `Y88P'  VP   V8P Y888888P    YP    YP   YP   `8888Y'  `Y88P'  YP         YP   
+17:30:29 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - ====================================================================================================
+17:30:29 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - UI-DESIGNER : Community edition v.1.9.57
+17:30:29 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - ====================================================================================================
+17:30:31 [localhost-startStop-1] INFO  o.s.w.c.ContextLoader - Root WebApplicationContext: initialization started
+17:30:34 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+17:30:38 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+17:30:42 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+17:30:42 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+17:30:42 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+17:30:42 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+17:30:49 [localhost-startStop-1] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 5.4.1.Final
+17:30:52 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+17:30:52 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+17:31:14 [localhost-startStop-1] INFO  o.b.w.d.c.WebMvcConfiguration - Adding welcome page: file:/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/.metadata/.plugins/org.bonitasoft.studio.designer/.extract/webapps/bonita/WEB-INF/classes/static/index.html
+17:31:16 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+17:31:17 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+17:31:17 [localhost-startStop-1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+17:31:17 [localhost-startStop-1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+17:31:17 [localhost-startStop-1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+17:31:17 [localhost-startStop-1] INFO  o.s.w.c.ContextLoader - Root WebApplicationContext initialized in 46147 ms
+17:31:26 [localhost-startStop-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcher'
+17:31:26 [localhost-startStop-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 28 ms
+17:32:17 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 3]
+17:33:13 [localhost-startStop-2] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+17:33:14 [localhost-startStop-2] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+17:33:14 [localhost-startStop-2] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+17:33:14 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+17:33:14 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+17:33:14 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+17:33:14 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+17:45:26 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 
+17:45:26 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - d8888b.  .d88b.  d8b   db d888888b d888888b  .d8b.    .d8888.  .d88b.  d88888b d888888b
+17:45:26 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88  `8D .8P  Y8. 888o  88   `88'   `~~88~~' d8' `8b   88'  YP .8P  Y8. 88'     `~~88~~'
+17:45:26 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88oooY' 88    88 88V8o 88    88       88    88ooo88   `8bo.   88    88 88ooo      88  
+17:45:26 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88~~~b. 88    88 88 V8o88    88       88    88~~~88     `Y8b. 88    88 88~~~      88  
+17:45:26 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88   8D `8b  d8' 88  V888   .88.      88    88   88   db   8D `8b  d8' 88         88   
+17:45:26 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - Y8888P'  `Y88P'  VP   V8P Y888888P    YP    YP   YP   `8888Y'  `Y88P'  YP         YP   
+17:45:26 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - ====================================================================================================
+17:45:26 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - UI-DESIGNER : Community edition v.1.9.57
+17:45:26 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - ====================================================================================================
+17:45:26 [localhost-startStop-1] INFO  o.s.w.c.ContextLoader - Root WebApplicationContext: initialization started
+17:45:26 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+17:45:26 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+17:45:26 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+17:45:26 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+17:45:26 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+17:45:26 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+17:45:27 [localhost-startStop-1] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 5.4.1.Final
+17:45:28 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+17:45:28 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+17:45:30 [localhost-startStop-1] INFO  o.b.w.d.c.WebMvcConfiguration - Adding welcome page: file:/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/.metadata/.plugins/org.bonitasoft.studio.designer/.extract/webapps/bonita/WEB-INF/classes/static/index.html
+17:45:30 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+17:45:30 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+17:45:30 [localhost-startStop-1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+17:45:30 [localhost-startStop-1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+17:45:30 [localhost-startStop-1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+17:45:30 [localhost-startStop-1] INFO  o.s.w.c.ContextLoader - Root WebApplicationContext initialized in 4008 ms
+17:45:30 [localhost-startStop-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcher'
+17:45:30 [localhost-startStop-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 14 ms
+17:46:30 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 3]
+18:16:30 [MessageBroker-2] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 94]
+18:46:30 [MessageBroker-2] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 185]
+18:55:58 [localhost-startStop-2] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+18:55:58 [localhost-startStop-2] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+18:55:58 [localhost-startStop-2] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+18:55:58 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+18:55:58 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+18:55:58 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+18:55:58 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+20:00:25 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 
+20:00:25 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - d8888b.  .d88b.  d8b   db d888888b d888888b  .d8b.    .d8888.  .d88b.  d88888b d888888b
+20:00:25 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88  `8D .8P  Y8. 888o  88   `88'   `~~88~~' d8' `8b   88'  YP .8P  Y8. 88'     `~~88~~'
+20:00:25 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88oooY' 88    88 88V8o 88    88       88    88ooo88   `8bo.   88    88 88ooo      88  
+20:00:25 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88~~~b. 88    88 88 V8o88    88       88    88~~~88     `Y8b. 88    88 88~~~      88  
+20:00:25 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88   8D `8b  d8' 88  V888   .88.      88    88   88   db   8D `8b  d8' 88         88   
+20:00:25 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - Y8888P'  `Y88P'  VP   V8P Y888888P    YP    YP   YP   `8888Y'  `Y88P'  YP         YP   
+20:00:25 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - ====================================================================================================
+20:00:25 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - UI-DESIGNER : Community edition v.1.9.57
+20:00:25 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - ====================================================================================================
+20:00:25 [localhost-startStop-1] INFO  o.s.w.c.ContextLoader - Root WebApplicationContext: initialization started
+20:00:26 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:00:26 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:00:26 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:00:26 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:00:26 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:00:26 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:00:28 [localhost-startStop-1] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 5.4.1.Final
+20:00:29 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+20:00:29 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+20:00:31 [localhost-startStop-1] INFO  o.b.w.d.c.WebMvcConfiguration - Adding welcome page: file:/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/.metadata/.plugins/org.bonitasoft.studio.designer/.extract/webapps/bonita/WEB-INF/classes/static/index.html
+20:00:32 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+20:00:32 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+20:00:32 [localhost-startStop-1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+20:00:32 [localhost-startStop-1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+20:00:32 [localhost-startStop-1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+20:00:32 [localhost-startStop-1] INFO  o.s.w.c.ContextLoader - Root WebApplicationContext initialized in 6464 ms
+20:00:33 [localhost-startStop-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcher'
+20:00:33 [localhost-startStop-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 25 ms
+20:01:32 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 3]
+20:04:55 [localhost-startStop-2] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+20:04:55 [localhost-startStop-2] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+20:04:55 [localhost-startStop-2] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+20:04:55 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+20:04:55 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+20:04:55 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+20:04:55 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+20:09:01 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 
+20:09:01 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - d8888b.  .d88b.  d8b   db d888888b d888888b  .d8b.    .d8888.  .d88b.  d88888b d888888b
+20:09:01 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88  `8D .8P  Y8. 888o  88   `88'   `~~88~~' d8' `8b   88'  YP .8P  Y8. 88'     `~~88~~'
+20:09:01 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88oooY' 88    88 88V8o 88    88       88    88ooo88   `8bo.   88    88 88ooo      88  
+20:09:01 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88~~~b. 88    88 88 V8o88    88       88    88~~~88     `Y8b. 88    88 88~~~      88  
+20:09:01 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88   8D `8b  d8' 88  V888   .88.      88    88   88   db   8D `8b  d8' 88         88   
+20:09:01 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - Y8888P'  `Y88P'  VP   V8P Y888888P    YP    YP   YP   `8888Y'  `Y88P'  YP         YP   
+20:09:01 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - ====================================================================================================
+20:09:01 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - UI-DESIGNER : Community edition v.1.9.57
+20:09:01 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - ====================================================================================================
+20:09:01 [localhost-startStop-1] INFO  o.s.w.c.ContextLoader - Root WebApplicationContext: initialization started
+20:09:02 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:09:02 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:09:02 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:09:02 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:09:02 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:09:02 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:09:04 [localhost-startStop-1] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 5.4.1.Final
+20:09:05 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+20:09:05 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+20:09:06 [localhost-startStop-1] INFO  o.b.w.d.c.WebMvcConfiguration - Adding welcome page: file:/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/.metadata/.plugins/org.bonitasoft.studio.designer/.extract/webapps/bonita/WEB-INF/classes/static/index.html
+20:09:07 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+20:09:07 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+20:09:07 [localhost-startStop-1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+20:09:07 [localhost-startStop-1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+20:09:07 [localhost-startStop-1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+20:09:07 [localhost-startStop-1] INFO  o.s.w.c.ContextLoader - Root WebApplicationContext initialized in 5664 ms
+20:09:07 [localhost-startStop-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcher'
+20:09:07 [localhost-startStop-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 21 ms
+20:10:07 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 3]
+20:14:17 [localhost-startStop-2] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+20:14:17 [localhost-startStop-2] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+20:14:17 [localhost-startStop-2] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+20:14:17 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+20:14:17 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+20:14:17 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+20:14:17 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+20:19:00 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 
+20:19:00 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - d8888b.  .d88b.  d8b   db d888888b d888888b  .d8b.    .d8888.  .d88b.  d88888b d888888b
+20:19:00 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88  `8D .8P  Y8. 888o  88   `88'   `~~88~~' d8' `8b   88'  YP .8P  Y8. 88'     `~~88~~'
+20:19:00 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88oooY' 88    88 88V8o 88    88       88    88ooo88   `8bo.   88    88 88ooo      88  
+20:19:00 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88~~~b. 88    88 88 V8o88    88       88    88~~~88     `Y8b. 88    88 88~~~      88  
+20:19:00 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88   8D `8b  d8' 88  V888   .88.      88    88   88   db   8D `8b  d8' 88         88   
+20:19:00 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - Y8888P'  `Y88P'  VP   V8P Y888888P    YP    YP   YP   `8888Y'  `Y88P'  YP         YP   
+20:19:00 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - ====================================================================================================
+20:19:00 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - UI-DESIGNER : Community edition v.1.9.57
+20:19:00 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - ====================================================================================================
+20:19:00 [localhost-startStop-1] INFO  o.s.w.c.ContextLoader - Root WebApplicationContext: initialization started
+20:19:00 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:19:01 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:19:01 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:19:01 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:19:01 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:19:01 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:19:03 [localhost-startStop-1] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 5.4.1.Final
+20:19:04 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+20:19:04 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+20:19:07 [localhost-startStop-1] INFO  o.b.w.d.c.WebMvcConfiguration - Adding welcome page: file:/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/.metadata/.plugins/org.bonitasoft.studio.designer/.extract/webapps/bonita/WEB-INF/classes/static/index.html
+20:19:07 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+20:19:07 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+20:19:08 [localhost-startStop-1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+20:19:08 [localhost-startStop-1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+20:19:08 [localhost-startStop-1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+20:19:08 [localhost-startStop-1] INFO  o.s.w.c.ContextLoader - Root WebApplicationContext initialized in 7912 ms
+20:19:08 [localhost-startStop-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcher'
+20:19:08 [localhost-startStop-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 26 ms
+20:20:07 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 3]
+20:38:53 [localhost-startStop-2] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+20:38:53 [localhost-startStop-2] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+20:38:53 [localhost-startStop-2] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+20:38:53 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+20:38:53 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+20:38:53 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+20:38:53 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+20:40:20 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 
+20:40:20 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - d8888b.  .d88b.  d8b   db d888888b d888888b  .d8b.    .d8888.  .d88b.  d88888b d888888b
+20:40:20 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88  `8D .8P  Y8. 888o  88   `88'   `~~88~~' d8' `8b   88'  YP .8P  Y8. 88'     `~~88~~'
+20:40:20 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88oooY' 88    88 88V8o 88    88       88    88ooo88   `8bo.   88    88 88ooo      88  
+20:40:20 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88~~~b. 88    88 88 V8o88    88       88    88~~~88     `Y8b. 88    88 88~~~      88  
+20:40:20 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - 88   8D `8b  d8' 88  V888   .88.      88    88   88   db   8D `8b  d8' 88         88   
+20:40:20 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - Y8888P'  `Y88P'  VP   V8P Y888888P    YP    YP   YP   `8888Y'  `Y88P'  YP         YP   
+20:40:20 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - ====================================================================================================
+20:40:20 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - UI-DESIGNER : Community edition v.1.9.57
+20:40:20 [localhost-startStop-1] INFO  o.b.w.d.SpringWebApplicationInitializer - ====================================================================================================
+20:40:20 [localhost-startStop-1] INFO  o.s.w.c.ContextLoader - Root WebApplicationContext: initialization started
+20:40:21 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:40:21 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:40:21 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:40:21 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:40:21 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:40:21 [localhost-startStop-1] INFO  o.b.w.d.c.DesignerConfigConditional - Conf loaded :  Community edition
+20:40:22 [localhost-startStop-1] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 5.4.1.Final
+20:40:23 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+20:40:23 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+20:40:24 [localhost-startStop-1] INFO  o.b.w.d.c.WebMvcConfiguration - Adding welcome page: file:/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/.metadata/.plugins/org.bonitasoft.studio.designer/.extract/webapps/bonita/WEB-INF/classes/static/index.html
+20:40:25 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+20:40:25 [localhost-startStop-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+20:40:25 [localhost-startStop-1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+20:40:25 [localhost-startStop-1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+20:40:25 [localhost-startStop-1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+20:40:25 [localhost-startStop-1] INFO  o.s.w.c.ContextLoader - Root WebApplicationContext initialized in 4434 ms
+20:40:25 [localhost-startStop-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcher'
+20:40:25 [localhost-startStop-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 13 ms
+20:41:25 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 3]
+21:11:25 [MessageBroker-3] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 94]
+21:41:25 [MessageBroker-2] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 185]
+22:11:25 [MessageBroker-2] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 276]
+22:27:39 [localhost-startStop-2] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+22:27:39 [localhost-startStop-2] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+22:27:39 [localhost-startStop-2] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+22:27:39 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+22:27:39 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+22:27:39 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+22:27:39 [localhost-startStop-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'

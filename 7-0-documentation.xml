@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+  <channel>
+    <pubDate>2019-06-11</pubDate>
+    <author>Bonitasoft</author>
+    <category>Documentation</category>
+    <title>Bonitasoft Documentation</title>
+    <link>https://documentation.bonitasoft.com/bonita/7.9</link>
+    <description>Bonitasoft Documentation</description>
+    <item>
+       <author>Antoine Mottier</author>
+       <category>Documentation</category>
+       <title>Bonita Overview</title>
+       <link>http://org.eclipse.ui.intro/runAction?pluginId=org.bonitasoft.studio.intro&amp;class=org.bonitasoft.studio.intro.actions.OpenInExternalBrowserIntroAction&amp;url=https://documentation.bonitasoft.com/bonita/7.9/bonita-bpm-overview</link>
+       <description></description>
+    </item>
+    <item>
+       <author>Antoine Mottier</author>
+       <category>Documentation</category>
+       <title>Getting Started</title>
+       <link>http://org.eclipse.ui.intro/runAction?pluginId=org.bonitasoft.studio.intro&amp;class=org.bonitasoft.studio.intro.actions.OpenInExternalBrowserIntroAction&amp;url=https://documentation.bonitasoft.com/bonita/7.9/_getting-started-tutorial</link>
+       <description></description>
+    </item>
+    <item>
+       <author>Antoine Mottier</author>
+       <category>Documentation</category>
+       <title>Process Modeling</title>
+       <link>http://org.eclipse.ui.intro/runAction?pluginId=org.bonitasoft.studio.intro&amp;class=org.bonitasoft.studio.intro.actions.OpenInExternalBrowserIntroAction&amp;url=https://documentation.bonitasoft.com/bonita/7.9/_process-modeling</link>
+       <description></description>
+    </item> 
+   </channel>
+</rss>

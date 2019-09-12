@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+    <channel>
+        <pubDate>2019-09-05</pubDate>
+        <author>Bonitasoft</author>
+        <category>News</category>
+        <title>Bonitasoft latest news</title>
+        <link>https://www.bonitasoft.com/news</link>
+        <description>Latest news from Bonitasoft</description>
+        
+        <item>
+            <pubDate>2019-09-03</pubDate>
+            <author>Mickey Farrance</author>
+            <category>News</category>
+            <title>Bridge the Skills Abyss with Multidisciplinary Customer Experience and Operational Excellence Teams</title>
+            <link>http://org.eclipse.ui.intro/runAction?pluginId=org.bonitasoft.studio.intro&amp;class=org.bonitasoft.studio.intro.actions.OpenInExternalBrowserIntroAction&amp;url=https://www.bonitasoft.com/news/connie-moore-bridge-skills-abyss</link>
+            <description></description>
+        </item>
+        <item>
+            <pubDate>2019-08-27</pubDate>
+            <author>Mickey Farrance</author>
+            <category>News</category>
+            <title>We have a new podcast series!</title>
+            <link>http://org.eclipse.ui.intro/runAction?pluginId=org.bonitasoft.studio.intro&amp;class=org.bonitasoft.studio.intro.actions.OpenInExternalBrowserIntroAction&amp;url=https://www.bonitasoft.com/news/bonitasoft-podcast-series</link>
+            <description></description>
+        </item>
+        <item>
+            <pubDate>2019-07-30</pubDate>
+            <author>Mickey Farrance</author>
+            <category>News</category>
+            <title>Hungry? How about a #BLT?</title>
+            <link>http://org.eclipse.ui.intro/runAction?pluginId=org.bonitasoft.studio.intro&amp;class=org.bonitasoft.studio.intro.actions.OpenInExternalBrowserIntroAction&amp;url=https://www.bonitasoft.com/news/bonita-live-tour-2019</link>
+            <description></description>
+        </item>
+        <item>
+            <pubDate>2019-07-02</pubDate>
+            <author>Mickey Farrance</author>
+            <category>News</category>
+            <title>Bonitasoft announces availability of Bonita Cloud</title>
+            <link>http://org.eclipse.ui.intro/runAction?pluginId=org.bonitasoft.studio.intro&amp;class=org.bonitasoft.studio.intro.actions.OpenInExternalBrowserIntroAction&amp;url=https://www.bonitasoft.com/news/bonitasoft-announces-cloud-availability</link>
+            <description></description>
+        </item>
+        <item>
+            <pubDate>2019-06-25</pubDate>
+            <author>Mickey Farrance</author>
+            <category>News</category>
+            <title>Bonitasoft celebrates 10 years!</title>
+                <link>http://org.eclipse.ui.intro/runAction?pluginId=org.bonitasoft.studio.intro&amp;class=org.bonitasoft.studio.intro.actions.OpenInExternalBrowserIntroAction&amp;url=https://www.bonitasoft.com/news/bonitasoft-celebrates-10-years</link>
+            <description></description>
+        </item>
+        <item>
+            <pubDate>2019-06-19</pubDate>
+            <author>Mickey Farrance</author>
+            <category>News</category>
+            <title>Bonitasoft in the Forrester Wave</title>
+            <link>http://org.eclipse.ui.intro/runAction?pluginId=org.bonitasoft.studio.intro&amp;class=org.bonitasoft.studio.intro.actions.OpenInExternalBrowserIntroAction&amp;url=https://www.bonitasoft.com/news/bonitasoft-forrester-wave-software-digital-process-automation-deep-deployments</link>
+            <description></description>
+        </item>
+    </channel>
+</rss>

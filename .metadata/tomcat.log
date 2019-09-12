@@ -1,0 +1,344 @@
+2019-09-11 17:32:27.291 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server version:        Apache Tomcat/8.5.40
+2019-09-11 17:32:27.910 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server built:          Apr 10 2019 14:31:19 UTC
+2019-09-11 17:32:27.912 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server number:         8.5.40.0
+2019-09-11 17:32:27.914 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener OS Name:               Linux
+2019-09-11 17:32:27.917 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener OS Version:            5.2.11-100.fc29.x86_64
+2019-09-11 17:32:27.919 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Architecture:          amd64
+2019-09-11 17:32:27.920 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Java Home:             /home/wagner/wagnerdocri@gmail.com3/progsativos/BonitaStudioCommunity-7.9.3/jre
+2019-09-11 17:32:27.921 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener JVM Version:           11.0.2+9
+2019-09-11 17:32:27.923 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener JVM Vendor:            AdoptOpenJDK
+2019-09-11 17:32:27.924 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener CATALINA_BASE:         /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 17:32:27.925 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener CATALINA_HOME:         /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 17:32:28.030 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Xmx512m
+2019-09-11 17:32:28.031 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DnoCacheCustomPage=true
+2019-09-11 17:32:28.032 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.home=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 17:32:28.034 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DCATALINA_HOME=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 17:32:28.035 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DCATALINA_TMPDIR=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/temp
+2019-09-11 17:32:28.037 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.io.tmpdir=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/temp
+2019-09-11 17:32:28.038 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbtm.root=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 17:32:28.039 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dwtp.deploy=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps
+2019-09-11 17:32:28.040 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dsysprop.bonita.db.vendor=h2
+2019-09-11 17:32:28.042 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.platform.setup.folder=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/setup
+2019-09-11 17:32:28.043 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.engine.incident.folder=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/logs
+2019-09-11 17:32:28.044 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2019-09-11 17:32:28.045 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.config.file=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/logging.properties
+2019-09-11 17:32:28.046 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcom.arjuna.ats.arjuna.common.propertiesFile=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/jbossts-properties.xml
+2019-09-11 17:32:28.047 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dfile.encoding=UTF-8
+2019-09-11 17:32:28.048 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.studio.watchdog.port=26995
+2019-09-11 17:32:28.049 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.studio.watchdog.timer=20000
+2019-09-11 17:32:28.050 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Declipse.product=org.bonitasoft.studio.application.application
+2019-09-11 17:32:28.051 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbonita.web.register=1
+2019-09-11 17:32:28.052 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.h2.database.dir=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/My project/h2_database
+2019-09-11 17:32:28.054 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbonita.csrf.cookie.path=/
+2019-09-11 17:32:28.055 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.base=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 17:32:28.056 -0300 INFORMAÇÕES: org.apache.catalina.core.AprLifecycleListener The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-09-11 17:32:28.628 -0300 INFORMAÇÕES: org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-15961"]
+2019-09-11 17:32:29.782 -0300 INFORMAÇÕES: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2019-09-11 17:32:29.813 -0300 INFORMAÇÕES: org.apache.coyote.ajp.AjpNioProtocol Initializing ProtocolHandler ["ajp-nio-34795"]
+2019-09-11 17:32:29.816 -0300 INFORMAÇÕES: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2019-09-11 17:32:29.818 -0300 INFORMAÇÕES: org.apache.catalina.startup.Catalina Initialization processed in 20420 ms
+2019-09-11 17:32:33.226 -0300 INFORMAÇÕES: org.apache.catalina.core.StandardService Starting service [Catalina]
+2019-09-11 17:32:33.227 -0300 INFORMAÇÕES: org.apache.catalina.core.StandardEngine Starting Servlet Engine: Apache Tomcat/8.5.40
+2019-09-11 17:32:36.662 -0300 ADVERTÊNCIA: org.apache.catalina.util.SessionIdGeneratorBase Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [561] milliseconds.
+2019-09-11 17:32:36.793 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying configuration descriptor [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/Catalina/localhost/bonita.xml]
+2019-09-11 17:33:01.475 -0300 ADVERTÊNCIA: org.apache.catalina.core.NamingContextListener naming.jmxRegistrationFailed
+2019-09-11 17:33:26.399 -0300 GRAVE: org.apache.catalina.core.StandardContext One or more listeners failed to start. Full details will be found in the appropriate container log file
+2019-09-11 17:33:26.400 -0300 GRAVE: org.apache.catalina.core.StandardContext Context [/bonita] startup failed due to previous errors
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.catalina.loader.WebappClassLoaderBase (file:/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/lib/catalina.jar) to field java.io.ObjectStreamClass$Caches.localDescs
+WARNING: Please consider reporting this to the maintainers of org.apache.catalina.loader.WebappClassLoaderBase
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2019-09-11 17:33:28.040 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of configuration descriptor [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/Catalina/localhost/bonita.xml] has finished in [51,247] ms
+2019-09-11 17:33:28.100 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying web application archive [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/studio-watchdog-7.2.0.war]
+2019-09-11 17:33:28.407 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of web application archive [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/studio-watchdog-7.2.0.war] has finished in [307] ms
+2019-09-11 17:33:28.409 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying web application directory [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/manager]
+2019-09-11 17:33:28.871 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of web application directory [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/manager] has finished in [462] ms
+2019-09-11 17:33:28.929 -0300 INFORMAÇÕES: org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-15961"]
+2019-09-11 17:33:29.009 -0300 INFORMAÇÕES: org.apache.coyote.ajp.AjpNioProtocol Starting ProtocolHandler ["ajp-nio-34795"]
+2019-09-11 17:33:29.022 -0300 INFORMAÇÕES: org.apache.catalina.startup.Catalina Server startup in 59203 ms
+2019-09-11 17:45:35.501 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server version:        Apache Tomcat/8.5.40
+2019-09-11 17:45:35.515 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server built:          Apr 10 2019 14:31:19 UTC
+2019-09-11 17:45:35.516 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server number:         8.5.40.0
+2019-09-11 17:45:35.516 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener OS Name:               Linux
+2019-09-11 17:45:35.517 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener OS Version:            5.2.11-100.fc29.x86_64
+2019-09-11 17:45:35.518 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Architecture:          amd64
+2019-09-11 17:45:35.518 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Java Home:             /home/wagner/wagnerdocri@gmail.com3/progsativos/BonitaStudioCommunity-7.9.3/jre
+2019-09-11 17:45:35.519 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener JVM Version:           11.0.2+9
+2019-09-11 17:45:35.519 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener JVM Vendor:            AdoptOpenJDK
+2019-09-11 17:45:35.521 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener CATALINA_BASE:         /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 17:45:35.522 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener CATALINA_HOME:         /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 17:45:35.525 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Xmx512m
+2019-09-11 17:45:35.526 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DnoCacheCustomPage=true
+2019-09-11 17:45:35.527 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.home=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 17:45:35.527 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DCATALINA_HOME=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 17:45:35.528 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DCATALINA_TMPDIR=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/temp
+2019-09-11 17:45:35.528 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.io.tmpdir=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/temp
+2019-09-11 17:45:35.529 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbtm.root=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 17:45:35.530 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dwtp.deploy=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps
+2019-09-11 17:45:35.530 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dsysprop.bonita.db.vendor=h2
+2019-09-11 17:45:35.531 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.platform.setup.folder=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/setup
+2019-09-11 17:45:35.531 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.engine.incident.folder=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/logs
+2019-09-11 17:45:35.531 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2019-09-11 17:45:35.532 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.config.file=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/logging.properties
+2019-09-11 17:45:35.532 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcom.arjuna.ats.arjuna.common.propertiesFile=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/jbossts-properties.xml
+2019-09-11 17:45:35.533 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dfile.encoding=UTF-8
+2019-09-11 17:45:35.533 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.studio.watchdog.port=6969
+2019-09-11 17:45:35.534 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.studio.watchdog.timer=20000
+2019-09-11 17:45:35.534 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Declipse.product=org.bonitasoft.studio.application.application
+2019-09-11 17:45:35.535 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbonita.web.register=1
+2019-09-11 17:45:35.536 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.h2.database.dir=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/My project/h2_database
+2019-09-11 17:45:35.536 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbonita.csrf.cookie.path=/
+2019-09-11 17:45:35.536 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.base=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 17:45:35.537 -0300 INFORMAÇÕES: org.apache.catalina.core.AprLifecycleListener The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-09-11 17:45:35.598 -0300 INFORMAÇÕES: org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-15961"]
+2019-09-11 17:45:35.627 -0300 INFORMAÇÕES: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2019-09-11 17:45:35.642 -0300 INFORMAÇÕES: org.apache.coyote.ajp.AjpNioProtocol Initializing ProtocolHandler ["ajp-nio-34795"]
+2019-09-11 17:45:35.645 -0300 INFORMAÇÕES: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2019-09-11 17:45:35.649 -0300 INFORMAÇÕES: org.apache.catalina.startup.Catalina Initialization processed in 1568 ms
+2019-09-11 17:45:36.566 -0300 INFORMAÇÕES: org.apache.catalina.core.StandardService Starting service [Catalina]
+2019-09-11 17:45:36.567 -0300 INFORMAÇÕES: org.apache.catalina.core.StandardEngine Starting Servlet Engine: Apache Tomcat/8.5.40
+2019-09-11 17:45:37.053 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying configuration descriptor [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/Catalina/localhost/bonita.xml]
+2019-09-11 17:45:42.991 -0300 ADVERTÊNCIA: org.apache.catalina.core.NamingContextListener naming.jmxRegistrationFailed
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.dom4j.io.SAXContentHandler (file:/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/bonita/WEB-INF/lib/dom4j-1.6.1.jar) to method com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy.getEncoding()
+WARNING: Please consider reporting this to the maintainers of org.dom4j.io.SAXContentHandler
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+done
+2019-09-11 17:46:12.075 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of configuration descriptor [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/Catalina/localhost/bonita.xml] has finished in [35,021] ms
+2019-09-11 17:46:12.133 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying web application archive [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/studio-watchdog-7.2.0.war]
+2019-09-11 17:46:12.318 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of web application archive [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/studio-watchdog-7.2.0.war] has finished in [185] ms
+2019-09-11 17:46:12.319 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying web application directory [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/manager]
+2019-09-11 17:46:12.401 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of web application directory [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/manager] has finished in [81] ms
+2019-09-11 17:46:12.408 -0300 INFORMAÇÕES: org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-15961"]
+2019-09-11 17:46:12.434 -0300 INFORMAÇÕES: org.apache.coyote.ajp.AjpNioProtocol Starting ProtocolHandler ["ajp-nio-34795"]
+2019-09-11 17:46:12.454 -0300 INFORMAÇÕES: org.apache.catalina.startup.Catalina Server startup in 36803 ms
+2019-09-11 20:00:39.008 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server version:        Apache Tomcat/8.5.40
+2019-09-11 20:00:39.017 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server built:          Apr 10 2019 14:31:19 UTC
+2019-09-11 20:00:39.017 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server number:         8.5.40.0
+2019-09-11 20:00:39.018 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener OS Name:               Linux
+2019-09-11 20:00:39.019 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener OS Version:            5.2.11-100.fc29.x86_64
+2019-09-11 20:00:39.019 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Architecture:          amd64
+2019-09-11 20:00:39.020 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Java Home:             /home/wagner/wagnerdocri@gmail.com3/progsativos/BonitaStudioCommunity-7.9.3/jre
+2019-09-11 20:00:39.020 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener JVM Version:           11.0.2+9
+2019-09-11 20:00:39.021 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener JVM Vendor:            AdoptOpenJDK
+2019-09-11 20:00:39.021 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener CATALINA_BASE:         /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:00:39.022 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener CATALINA_HOME:         /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:00:39.025 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Xmx512m
+2019-09-11 20:00:39.025 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DnoCacheCustomPage=true
+2019-09-11 20:00:39.026 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.home=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:00:39.026 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DCATALINA_HOME=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:00:39.027 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DCATALINA_TMPDIR=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/temp
+2019-09-11 20:00:39.027 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.io.tmpdir=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/temp
+2019-09-11 20:00:39.028 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbtm.root=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:00:39.028 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dwtp.deploy=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps
+2019-09-11 20:00:39.029 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dsysprop.bonita.db.vendor=h2
+2019-09-11 20:00:39.029 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.platform.setup.folder=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/setup
+2019-09-11 20:00:39.029 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.engine.incident.folder=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/logs
+2019-09-11 20:00:39.030 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2019-09-11 20:00:39.031 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.config.file=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/logging.properties
+2019-09-11 20:00:39.031 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcom.arjuna.ats.arjuna.common.propertiesFile=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/jbossts-properties.xml
+2019-09-11 20:00:39.032 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dfile.encoding=UTF-8
+2019-09-11 20:00:39.032 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.studio.watchdog.port=6969
+2019-09-11 20:00:39.033 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.studio.watchdog.timer=20000
+2019-09-11 20:00:39.033 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Declipse.product=org.bonitasoft.studio.application.application
+2019-09-11 20:00:39.034 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbonita.web.register=1
+2019-09-11 20:00:39.034 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.h2.database.dir=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/My project/h2_database
+2019-09-11 20:00:39.035 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbonita.csrf.cookie.path=/
+2019-09-11 20:00:39.035 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.base=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:00:39.035 -0300 INFORMAÇÕES: org.apache.catalina.core.AprLifecycleListener The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-09-11 20:00:39.117 -0300 INFORMAÇÕES: org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-15961"]
+2019-09-11 20:00:39.132 -0300 INFORMAÇÕES: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2019-09-11 20:00:39.155 -0300 INFORMAÇÕES: org.apache.coyote.ajp.AjpNioProtocol Initializing ProtocolHandler ["ajp-nio-34795"]
+2019-09-11 20:00:39.158 -0300 INFORMAÇÕES: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2019-09-11 20:00:39.163 -0300 INFORMAÇÕES: org.apache.catalina.startup.Catalina Initialization processed in 2015 ms
+2019-09-11 20:00:40.085 -0300 INFORMAÇÕES: org.apache.catalina.core.StandardService Starting service [Catalina]
+2019-09-11 20:00:40.087 -0300 INFORMAÇÕES: org.apache.catalina.core.StandardEngine Starting Servlet Engine: Apache Tomcat/8.5.40
+2019-09-11 20:00:40.807 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying configuration descriptor [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/Catalina/localhost/bonita.xml]
+2019-09-11 20:00:46.273 -0300 ADVERTÊNCIA: org.apache.catalina.core.NamingContextListener naming.jmxRegistrationFailed
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.dom4j.io.SAXContentHandler (file:/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/bonita/WEB-INF/lib/dom4j-1.6.1.jar) to method com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy.getEncoding()
+WARNING: Please consider reporting this to the maintainers of org.dom4j.io.SAXContentHandler
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+done
+2019-09-11 20:01:31.527 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of configuration descriptor [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/Catalina/localhost/bonita.xml] has finished in [50,698] ms
+2019-09-11 20:01:31.583 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying web application archive [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/studio-watchdog-7.2.0.war]
+2019-09-11 20:01:31.815 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of web application archive [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/studio-watchdog-7.2.0.war] has finished in [230] ms
+2019-09-11 20:01:31.819 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying web application directory [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/manager]
+2019-09-11 20:01:32.140 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of web application directory [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/manager] has finished in [321] ms
+2019-09-11 20:01:32.145 -0300 INFORMAÇÕES: org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-15961"]
+2019-09-11 20:01:32.212 -0300 INFORMAÇÕES: org.apache.coyote.ajp.AjpNioProtocol Starting ProtocolHandler ["ajp-nio-34795"]
+2019-09-11 20:01:32.233 -0300 INFORMAÇÕES: org.apache.catalina.startup.Catalina Server startup in 53068 ms
+2019-09-11 20:09:12.940 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server version:        Apache Tomcat/8.5.40
+2019-09-11 20:09:12.953 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server built:          Apr 10 2019 14:31:19 UTC
+2019-09-11 20:09:12.954 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server number:         8.5.40.0
+2019-09-11 20:09:12.956 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener OS Name:               Linux
+2019-09-11 20:09:12.958 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener OS Version:            5.2.11-100.fc29.x86_64
+2019-09-11 20:09:12.966 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Architecture:          amd64
+2019-09-11 20:09:12.967 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Java Home:             /home/wagner/wagnerdocri@gmail.com3/progsativos/BonitaStudioCommunity-7.9.3/jre
+2019-09-11 20:09:12.969 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener JVM Version:           11.0.2+9
+2019-09-11 20:09:12.970 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener JVM Vendor:            AdoptOpenJDK
+2019-09-11 20:09:12.971 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener CATALINA_BASE:         /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:09:12.972 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener CATALINA_HOME:         /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:09:12.975 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Xmx512m
+2019-09-11 20:09:12.984 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DnoCacheCustomPage=true
+2019-09-11 20:09:12.985 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.home=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:09:12.986 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DCATALINA_HOME=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:09:12.988 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DCATALINA_TMPDIR=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/temp
+2019-09-11 20:09:12.989 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.io.tmpdir=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/temp
+2019-09-11 20:09:12.990 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbtm.root=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:09:12.991 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dwtp.deploy=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps
+2019-09-11 20:09:12.992 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dsysprop.bonita.db.vendor=h2
+2019-09-11 20:09:12.993 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.platform.setup.folder=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/setup
+2019-09-11 20:09:12.995 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.engine.incident.folder=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/logs
+2019-09-11 20:09:12.996 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2019-09-11 20:09:12.997 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.config.file=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/logging.properties
+2019-09-11 20:09:12.998 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcom.arjuna.ats.arjuna.common.propertiesFile=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/jbossts-properties.xml
+2019-09-11 20:09:12.999 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dfile.encoding=UTF-8
+2019-09-11 20:09:13.000 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.studio.watchdog.port=6969
+2019-09-11 20:09:13.001 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.studio.watchdog.timer=20000
+2019-09-11 20:09:13.002 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Declipse.product=org.bonitasoft.studio.application.application
+2019-09-11 20:09:13.003 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbonita.web.register=1
+2019-09-11 20:09:13.004 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.h2.database.dir=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/My project/h2_database
+2019-09-11 20:09:13.005 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbonita.csrf.cookie.path=/
+2019-09-11 20:09:13.006 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.base=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:09:13.007 -0300 INFORMAÇÕES: org.apache.catalina.core.AprLifecycleListener The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-09-11 20:09:13.161 -0300 INFORMAÇÕES: org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-15961"]
+2019-09-11 20:09:13.205 -0300 INFORMAÇÕES: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2019-09-11 20:09:13.261 -0300 INFORMAÇÕES: org.apache.coyote.ajp.AjpNioProtocol Initializing ProtocolHandler ["ajp-nio-34795"]
+2019-09-11 20:09:13.265 -0300 INFORMAÇÕES: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2019-09-11 20:09:13.269 -0300 INFORMAÇÕES: org.apache.catalina.startup.Catalina Initialization processed in 1878 ms
+2019-09-11 20:09:14.151 -0300 INFORMAÇÕES: org.apache.catalina.core.StandardService Starting service [Catalina]
+2019-09-11 20:09:14.152 -0300 INFORMAÇÕES: org.apache.catalina.core.StandardEngine Starting Servlet Engine: Apache Tomcat/8.5.40
+2019-09-11 20:09:14.969 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying configuration descriptor [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/Catalina/localhost/bonita.xml]
+2019-09-11 20:09:16.219 -0300 ADVERTÊNCIA: org.apache.catalina.core.NamingContextListener naming.jmxRegistrationFailed
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.dom4j.io.SAXContentHandler (file:/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/bonita/WEB-INF/lib/dom4j-1.6.1.jar) to method com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy.getEncoding()
+WARNING: Please consider reporting this to the maintainers of org.dom4j.io.SAXContentHandler
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+done
+2019-09-11 20:09:53.039 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of configuration descriptor [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/Catalina/localhost/bonita.xml] has finished in [38,069] ms
+2019-09-11 20:09:53.041 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying web application archive [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/studio-watchdog-7.2.0.war]
+2019-09-11 20:09:53.116 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of web application archive [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/studio-watchdog-7.2.0.war] has finished in [75] ms
+2019-09-11 20:09:53.121 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying web application directory [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/manager]
+2019-09-11 20:09:53.226 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of web application directory [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/manager] has finished in [105] ms
+2019-09-11 20:09:53.231 -0300 INFORMAÇÕES: org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-15961"]
+2019-09-11 20:09:53.272 -0300 INFORMAÇÕES: org.apache.coyote.ajp.AjpNioProtocol Starting ProtocolHandler ["ajp-nio-34795"]
+2019-09-11 20:09:53.296 -0300 INFORMAÇÕES: org.apache.catalina.startup.Catalina Server startup in 40026 ms
+2019-09-11 20:19:16.596 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server version:        Apache Tomcat/8.5.40
+2019-09-11 20:19:16.644 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server built:          Apr 10 2019 14:31:19 UTC
+2019-09-11 20:19:16.657 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server number:         8.5.40.0
+2019-09-11 20:19:16.665 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener OS Name:               Linux
+2019-09-11 20:19:16.669 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener OS Version:            5.2.11-100.fc29.x86_64
+2019-09-11 20:19:16.671 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Architecture:          amd64
+2019-09-11 20:19:16.674 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Java Home:             /home/wagner/wagnerdocri@gmail.com3/progsativos/BonitaStudioCommunity-7.9.3/jre
+2019-09-11 20:19:16.678 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener JVM Version:           11.0.2+9
+2019-09-11 20:19:16.681 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener JVM Vendor:            AdoptOpenJDK
+2019-09-11 20:19:16.684 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener CATALINA_BASE:         /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:19:16.687 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener CATALINA_HOME:         /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:19:16.707 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Xmx512m
+2019-09-11 20:19:16.708 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DnoCacheCustomPage=true
+2019-09-11 20:19:16.709 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.home=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:19:16.710 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DCATALINA_HOME=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:19:16.710 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DCATALINA_TMPDIR=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/temp
+2019-09-11 20:19:16.710 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.io.tmpdir=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/temp
+2019-09-11 20:19:16.711 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbtm.root=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:19:16.711 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dwtp.deploy=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps
+2019-09-11 20:19:16.711 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dsysprop.bonita.db.vendor=h2
+2019-09-11 20:19:16.712 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.platform.setup.folder=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/setup
+2019-09-11 20:19:16.713 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.engine.incident.folder=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/logs
+2019-09-11 20:19:16.714 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2019-09-11 20:19:16.715 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.config.file=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/logging.properties
+2019-09-11 20:19:16.715 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcom.arjuna.ats.arjuna.common.propertiesFile=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/jbossts-properties.xml
+2019-09-11 20:19:16.715 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dfile.encoding=UTF-8
+2019-09-11 20:19:16.716 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.studio.watchdog.port=6969
+2019-09-11 20:19:16.716 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.studio.watchdog.timer=20000
+2019-09-11 20:19:16.716 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Declipse.product=org.bonitasoft.studio.application.application
+2019-09-11 20:19:16.724 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbonita.web.register=1
+2019-09-11 20:19:16.725 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.h2.database.dir=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/My project/h2_database
+2019-09-11 20:19:16.726 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbonita.csrf.cookie.path=/
+2019-09-11 20:19:16.732 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.base=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:19:16.738 -0300 INFORMAÇÕES: org.apache.catalina.core.AprLifecycleListener The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-09-11 20:19:17.113 -0300 INFORMAÇÕES: org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-15961"]
+2019-09-11 20:19:17.196 -0300 INFORMAÇÕES: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2019-09-11 20:19:17.295 -0300 INFORMAÇÕES: org.apache.coyote.ajp.AjpNioProtocol Initializing ProtocolHandler ["ajp-nio-34795"]
+2019-09-11 20:19:17.302 -0300 INFORMAÇÕES: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2019-09-11 20:19:17.320 -0300 INFORMAÇÕES: org.apache.catalina.startup.Catalina Initialization processed in 3199 ms
+2019-09-11 20:19:18.438 -0300 INFORMAÇÕES: org.apache.catalina.core.StandardService Starting service [Catalina]
+2019-09-11 20:19:18.439 -0300 INFORMAÇÕES: org.apache.catalina.core.StandardEngine Starting Servlet Engine: Apache Tomcat/8.5.40
+2019-09-11 20:19:19.556 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying configuration descriptor [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/Catalina/localhost/bonita.xml]
+2019-09-11 20:19:22.587 -0300 ADVERTÊNCIA: org.apache.catalina.core.NamingContextListener naming.jmxRegistrationFailed
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.dom4j.io.SAXContentHandler (file:/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/bonita/WEB-INF/lib/dom4j-1.6.1.jar) to method com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy.getEncoding()
+WARNING: Please consider reporting this to the maintainers of org.dom4j.io.SAXContentHandler
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+done
+2019-09-11 20:20:09.817 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of configuration descriptor [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/Catalina/localhost/bonita.xml] has finished in [50,255] ms
+2019-09-11 20:20:09.871 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying web application archive [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/studio-watchdog-7.2.0.war]
+2019-09-11 20:20:10.177 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of web application archive [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/studio-watchdog-7.2.0.war] has finished in [306] ms
+2019-09-11 20:20:10.178 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying web application directory [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/manager]
+2019-09-11 20:20:10.378 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of web application directory [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/manager] has finished in [200] ms
+2019-09-11 20:20:10.387 -0300 INFORMAÇÕES: org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-15961"]
+2019-09-11 20:20:10.493 -0300 INFORMAÇÕES: org.apache.coyote.ajp.AjpNioProtocol Starting ProtocolHandler ["ajp-nio-34795"]
+2019-09-11 20:20:10.508 -0300 INFORMAÇÕES: org.apache.catalina.startup.Catalina Server startup in 53184 ms
+2019-09-11 20:40:30.829 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server version:        Apache Tomcat/8.5.40
+2019-09-11 20:40:30.840 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server built:          Apr 10 2019 14:31:19 UTC
+2019-09-11 20:40:30.843 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server number:         8.5.40.0
+2019-09-11 20:40:30.844 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener OS Name:               Linux
+2019-09-11 20:40:30.845 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener OS Version:            5.2.11-100.fc29.x86_64
+2019-09-11 20:40:30.845 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Architecture:          amd64
+2019-09-11 20:40:30.848 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Java Home:             /home/wagner/wagnerdocri@gmail.com3/progsativos/BonitaStudioCommunity-7.9.3/jre
+2019-09-11 20:40:30.849 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener JVM Version:           11.0.2+9
+2019-09-11 20:40:30.850 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener JVM Vendor:            AdoptOpenJDK
+2019-09-11 20:40:30.851 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener CATALINA_BASE:         /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:40:30.851 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener CATALINA_HOME:         /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:40:30.854 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Xmx512m
+2019-09-11 20:40:30.855 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DnoCacheCustomPage=true
+2019-09-11 20:40:30.856 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.home=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:40:30.857 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DCATALINA_HOME=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:40:30.858 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DCATALINA_TMPDIR=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/temp
+2019-09-11 20:40:30.859 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.io.tmpdir=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/temp
+2019-09-11 20:40:30.860 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbtm.root=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:40:30.861 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dwtp.deploy=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps
+2019-09-11 20:40:30.862 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dsysprop.bonita.db.vendor=h2
+2019-09-11 20:40:30.862 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.platform.setup.folder=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/setup
+2019-09-11 20:40:30.863 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.engine.incident.folder=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/logs
+2019-09-11 20:40:30.864 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2019-09-11 20:40:30.865 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.config.file=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/logging.properties
+2019-09-11 20:40:30.865 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcom.arjuna.ats.arjuna.common.propertiesFile=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/jbossts-properties.xml
+2019-09-11 20:40:30.866 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dfile.encoding=UTF-8
+2019-09-11 20:40:30.866 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.studio.watchdog.port=6969
+2019-09-11 20:40:30.867 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.studio.watchdog.timer=20000
+2019-09-11 20:40:30.867 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Declipse.product=org.bonitasoft.studio.application.application
+2019-09-11 20:40:30.868 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbonita.web.register=1
+2019-09-11 20:40:30.868 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.h2.database.dir=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/My project/h2_database
+2019-09-11 20:40:30.869 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbonita.csrf.cookie.path=/
+2019-09-11 20:40:30.869 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.base=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-09-11 20:40:30.869 -0300 INFORMAÇÕES: org.apache.catalina.core.AprLifecycleListener The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-09-11 20:40:30.983 -0300 INFORMAÇÕES: org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-15961"]
+2019-09-11 20:40:31.017 -0300 INFORMAÇÕES: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2019-09-11 20:40:31.055 -0300 INFORMAÇÕES: org.apache.coyote.ajp.AjpNioProtocol Initializing ProtocolHandler ["ajp-nio-34795"]
+2019-09-11 20:40:31.062 -0300 INFORMAÇÕES: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2019-09-11 20:40:31.064 -0300 INFORMAÇÕES: org.apache.catalina.startup.Catalina Initialization processed in 1572 ms
+2019-09-11 20:40:31.789 -0300 INFORMAÇÕES: org.apache.catalina.core.StandardService Starting service [Catalina]
+2019-09-11 20:40:31.791 -0300 INFORMAÇÕES: org.apache.catalina.core.StandardEngine Starting Servlet Engine: Apache Tomcat/8.5.40
+2019-09-11 20:40:32.446 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying configuration descriptor [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/Catalina/localhost/bonita.xml]
+2019-09-11 20:40:35.120 -0300 ADVERTÊNCIA: org.apache.catalina.core.NamingContextListener naming.jmxRegistrationFailed
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.dom4j.io.SAXContentHandler (file:/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/bonita/WEB-INF/lib/dom4j-1.6.1.jar) to method com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy.getEncoding()
+WARNING: Please consider reporting this to the maintainers of org.dom4j.io.SAXContentHandler
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+done
+2019-09-11 20:41:04.674 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of configuration descriptor [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/Catalina/localhost/bonita.xml] has finished in [32,227] ms
+2019-09-11 20:41:04.755 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying web application archive [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/studio-watchdog-7.2.0.war]
+2019-09-11 20:41:04.941 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of web application archive [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/studio-watchdog-7.2.0.war] has finished in [186] ms
+2019-09-11 20:41:04.943 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying web application directory [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/manager]
+2019-09-11 20:41:05.125 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of web application directory [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/manager] has finished in [181] ms
+2019-09-11 20:41:05.129 -0300 INFORMAÇÕES: org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-15961"]
+2019-09-11 20:41:05.157 -0300 INFORMAÇÕES: org.apache.coyote.ajp.AjpNioProtocol Starting ProtocolHandler ["ajp-nio-34795"]
+2019-09-11 20:41:05.170 -0300 INFORMAÇÕES: org.apache.catalina.startup.Catalina Server startup in 34106 ms

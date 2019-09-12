@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" ?>
+<rss version="2.0">
+  <channel>
+    <pubDate>2019-09-09</pubDate>
+    <author>Bonitasoft</author>
+    <category>Videos</category>
+    <title>Bonitasoft subscription videos</title>
+    <description>Videos from Bonitasoft</description>
+	<item>
+       <author>Antoine Mottier</author>
+       <category>Videos</category>
+       <title>Bonita Camp</title>
+       <link>http://org.eclipse.ui.intro/runAction?pluginId=org.bonitasoft.studio.intro&amp;class=org.bonitasoft.studio.intro.actions.OpenInExternalBrowserIntroAction&amp;url=https://www.youtube.com/playlist?list=PLvvoQatxaHOMHRiP7hFayNXTJNdxIEiYp</link>
+       <description></description>
+    </item>
+    <item>
+       <author>Antoine Mottier</author>
+       <category>Videos</category>
+       <title>Webinars</title>
+       <link>http://org.eclipse.ui.intro/runAction?pluginId=org.bonitasoft.studio.intro&amp;class=org.bonitasoft.studio.intro.actions.OpenInExternalBrowserIntroAction&amp;url=https://www.youtube.com/playlist?list=PLvvoQatxaHOPxgelBBHZD0M9tnb7g1G1s</link>
+       <description></description>
+    </item>
+    <item>
+       <author>Antoine Mottier</author>
+       <category>Videos</category>
+       <title>Bonita 7.9</title>
+       <link>http://org.eclipse.ui.intro/runAction?pluginId=org.bonitasoft.studio.intro&amp;class=org.bonitasoft.studio.intro.actions.OpenInExternalBrowserIntroAction&amp;url=https://www.youtube.com/playlist?list=PLvvoQatxaHOMxnu-1S2lZ_NXk1Brq_WBK</link>
+       <description></description>
+    </item>
+   </channel>
+</rss>
