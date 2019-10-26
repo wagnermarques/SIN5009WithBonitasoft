@@ -526,6 +526,17 @@
       <enabled>true</enabled>
       <password encrypted="false">bpm</password>
     </user>
+    <user userName="Huguinho">
+      <firstName>Huguinho</firstName>
+      <lastName>Huguinho mesmo</lastName>
+      <title>Cliente</title>
+      <jobTitle>Cliente</jobTitle>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">huguinho</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="member">
@@ -585,6 +596,9 @@
     <group name="services" parentPath="/TRAVELORG_Sales/production">
       <displayName>Services</displayName>
       <description>This group represents the services department of the ACME organization</description>
+    </group>
+    <group name="ClienteFinal">
+      <displayName>ClientesFinal</displayName>
     </group>
   </groups>
   <memberships>
@@ -712,6 +726,11 @@
       <roleName>member</roleName>
       <groupName>north_america</groupName>
       <groupParentPath>/TRAVELORG_Sales/sales</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Huguinho</userName>
+      <roleName>member</roleName>
+      <groupName>ClienteFinal</groupName>
     </membership>
   </memberships>
 </organization:Organization>

@@ -1,11 +1,12 @@
-#Wed Sep 11 22:28:07 BRT 2019
+#Wed Oct 16 16:20:37 BRT 2019
 print.useInches=true
 rulergrid.rulerunit=1
 print.margin.left=0.5
-viewport.x=30
+viewport.x=170
 print.useLandscape=true
 rulergrid.gridlinestyle=6
-zoom=1.0
+viewport.y=0
+zoom=0.75
 print.page.height=11.0
 print.page.width=8.5
 rulergrid.snaptogrid=true

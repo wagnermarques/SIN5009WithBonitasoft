@@ -1,43 +1,140 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<businessObjectModel modelVersion="1.0" productVersion="7.9.3">
+<businessObjectModel modelVersion="1.0" productVersion="7.9.0">
     <businessObjects>
-        <businessObject qualifiedName="com.company.model.Destino">
-            <description>Destino da Viagem</description>
+        <businessObject qualifiedName="br.usp.sin5009.model.Applicant">
+            <description>The person applying for a loan.</description>
             <fields>
-                <field type="STRING" length="255" name="nome" nullable="true" collection="false"/>
-                <field type="LOCALDATETIME" length="255" name="duracao" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="name" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="firstName" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="homePhone" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="cellPhone" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="currentStreet" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="currentStreetNumber" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="currentCity" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="currentPostal" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="previousStreet" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="previousStreetNumber" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="previousCity" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="previousPostal" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="previousDuration" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="currentEmployer" nullable="true" collection="false"/>
+                <field type="LOCALDATETIME" length="255" name="employerStartDate" nullable="true" collection="false"/>
+                <field type="FLOAT" length="255" name="annualSalary" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="mainBank" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
             <indexes/>
         </businessObject>
-        <businessObject qualifiedName="com.company.model.Hospedagem">
+        <businessObject qualifiedName="br.usp.sin5009.model.CreditReport">
+            <description>A report on the credit history of an applicant</description>
             <fields>
-                <field type="STRING" length="255" name="nome" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="preco" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="financialOfficer" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="creditAssessment" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="courtJudgmentInformation" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="bankruptcyInformation" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="creditCardType" nullable="true" collection="false"/>
+                <field type="FLOAT" length="255" name="creditCardBalance" nullable="true" collection="false"/>
+                <field type="FLOAT" length="255" name="creditCardInterest" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="loanApplicationsLast5Years" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="overDueAccount" nullable="true" collection="false"/>
+                <field type="FLOAT" length="255" name="overDueBalance" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="overDueType" nullable="true" collection="false"/>
+                <field type="FLOAT" length="255" name="overDueInterestRate" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
             <indexes/>
         </businessObject>
-        <businessObject qualifiedName="com.company.model.PacoteDeViagem">
-            <description>Nome do pacote</description>
+        <businessObject qualifiedName="br.usp.sin5009.model.Emprestimo">
+            <description>Emprestimo Business Object</description>
             <fields>
-                <field type="STRING" length="255" name="nome" nullable="true" collection="false"/>
-                <relationField type="AGGREGATION" reference="com.company.model.Destino" fetchType="LAZY" name="destinos" nullable="true" collection="true"/>
-                <relationField type="AGGREGATION" reference="com.company.model.Passagens" fetchType="LAZY" name="passagens" nullable="true" collection="true"/>
-                <relationField type="AGGREGATION" reference="com.company.model.Hospedagem" fetchType="LAZY" name="hospedagens" nullable="true" collection="true"/>
-                <field type="LOCALDATETIME" length="255" name="duracao" nullable="true" collection="false"/>
-                <field type="DOUBLE" length="255" name="preco" nullable="true" collection="false"/>
+                <field type="DOUBLE" length="255" name="vlr" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="status" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
             <indexes/>
         </businessObject>
-        <businessObject qualifiedName="com.company.model.Passagens">
+        <businessObject qualifiedName="br.usp.sin5009.model.LoanAgreement">
+            <description>An agreement about a loan with an applicant/customer</description>
             <fields>
-                <field type="STRING" length="255" name="modal" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="preco" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="conditionsAgreed" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="repaymentAgreed" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="br.usp.sin5009.model.LoanApplication">
+            <description>An application for a loan submitted by an applicant</description>
+            <fields>
+                <field type="STRING" length="255" name="referenceName" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="referenceAddress" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="referenceRelation" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="propertyType" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="propertyAddress" nullable="true" collection="false"/>
+                <field type="FLOAT" length="255" name="purchasingPrice" nullable="true" collection="false"/>
+                <field type="FLOAT" length="255" name="loanAmount" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="loanStartDate" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="loanYears" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="loanInterestType" nullable="true" collection="false"/>
+                <field type="LOCALDATETIME" length="255" name="submissionDate" nullable="true" collection="false"/>
+                <field type="LOCALDATETIME" length="255" name="revisionDate" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="status" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="statusComments" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="eligibility" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="loanOfficer" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="insuranceRequired" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="applicantId" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="creditReportId" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="propertyAppraisalId" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="riskAssessmentId" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="loanAgreementId" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="br.usp.sin5009.model.PacoteDeViagem">
+            <description>Pacote de viagem</description>
+            <fields>
+                <relationField type="COMPOSITION" reference="br.usp.sin5009.model.ProdServDeViagem" fetchType="EAGER" name="itensDeViagem" nullable="true" collection="true"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="br.usp.sin5009.model.ProdServDeViagem">
+            <fields>
+                <field type="STRING" length="255" name="nome" nullable="true" collection="false"/>
+                <field type="FLOAT" length="255" name="vlr" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="inicio" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fim" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="br.usp.sin5009.model.PropertyAppraisal">
+            <description>An appraisal of a property that is used to secure a loan.</description>
+            <fields>
+                <field type="STRING" length="255" name="propertyType" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="propertyStreet" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="propertyCity" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="propertyPostal" nullable="true" collection="false"/>
+                <field type="FLOAT" length="255" name="marketValue" nullable="true" collection="false"/>
+                <field type="FLOAT" length="255" name="surroundingValue" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="comments" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="br.usp.sin5009.model.RiskAssessment">
+            <description>A risk assessment for a loan application</description>
+            <fields>
+                <field type="INTEGER" length="255" name="riskWeight" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>

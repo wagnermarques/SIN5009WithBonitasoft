@@ -1,5 +1,9 @@
 **/**/*.pdf
 
+*.log
+**/**/*.jar
+.metadata/.plugins/org.bonitasoft.studio.designer/.extract/logs/*
+
 # Output of source code compilation.
 # For example Bonita includes helper Groovy classes such as BonitaUsers (with for example getProcessInstanceInitiator method).
 # Sources (e.g. BonitaUsers.groovy) are located in src-providedGroovy folder and build result (e.g. BonitaUsers.class) is located in bin folder.

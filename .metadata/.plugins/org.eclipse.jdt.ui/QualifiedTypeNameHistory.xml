@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="br.usp.sin5009.model.Emprestimo"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="org.bonitasoft.engine.bpm.flownode.TaskInstance"/>
+    <fullyQualifiedTypeName name="org.bonitasoft.engine.api.Logger"/>
+    <fullyQualifiedTypeName name="org.bonitasoft.engine.bpm.flownode.impl.internal.TaskInstanceImpl"/>
+    <fullyQualifiedTypeName name="br.usp.sin5009.model.PacoteDeViagem"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.time.Month"/>
+    <fullyQualifiedTypeName name="br.usp.sin5009.model.ProdServDeViagem"/>
+    <fullyQualifiedTypeName name="org.codehaus.groovy.classgen.ReturnAdder"/>
+    <fullyQualifiedTypeName name="java.time.Instant"/>
+</qualifiedTypeNameHistroy>
