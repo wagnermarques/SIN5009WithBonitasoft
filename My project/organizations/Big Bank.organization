@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="Big Bank" description="A bank that provides loans">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="jane">
+      <firstName>Jane</firstName>
+      <lastName>Doe</lastName>
+      <title>Miss</title>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">password</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="customer">
+      <firstName>Customer</firstName>
+      <lastName>Customer</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">password</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="LoanOfficer">
+      <displayName>Loan Officer</displayName>
+      <description>An officer of Big Bank that handles and decides a loan application.</description>
+    </role>
+    <role name="FinancialOfficer">
+      <displayName>Financial Officer</displayName>
+      <description>An officer of Big Bank specializing in financial evaluation</description>
+    </role>
+    <role name="PropertyAppraiser">
+      <displayName>Property Appraiser</displayName>
+      <description>Real estate property expert</description>
+    </role>
+    <role name="InsuranceSalesRep">
+      <displayName>Insurance Sales Representative</displayName>
+      <description>Offers and sells insurance products</description>
+    </role>
+    <role name="AnonymousCustomer">
+      <displayName>Anonymous Customer</displayName>
+      <description>All customers</description>
+    </role>
+  </roles>
+  <groups>
+    <group name="Applicants">
+      <displayName>Applicants</displayName>
+    </group>
+    <group name="Employees">
+      <displayName>Employees</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>jane</userName>
+      <roleName>LoanOfficer</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+    <membership>
+      <userName>jane</userName>
+      <roleName>FinancialOfficer</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+    <membership>
+      <userName>jane</userName>
+      <roleName>PropertyAppraiser</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+    <membership>
+      <userName>jane</userName>
+      <roleName>InsuranceSalesRep</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+    <membership>
+      <userName>customer</userName>
+      <roleName>AnonymousCustomer</roleName>
+      <groupName>Applicants</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>

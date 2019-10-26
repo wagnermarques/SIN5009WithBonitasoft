@@ -1,0 +1,31 @@
+{
+  "designerVersion" : "1.9.57",
+  "id" : "SolEmpUiDesCreated",
+  "name" : "SolEmpUiDesCreated",
+  "lastUpdate" : 1568562413846,
+  "rows" : [ [ ] ],
+  "assets" : [ {
+    "id" : "c64364f2-2d6b-4e71-8e43-e14fd702abc5",
+    "name" : "style.css",
+    "type" : "css",
+    "order" : 0,
+    "external" : false
+  } ],
+  "inactiveAssets" : [ ],
+  "data" : {
+    "emprestimoInput" : {
+      "type" : "expression",
+      "value" : "return {\n    emprestimoInput : {\n        valor : 0,\n        status : \"pendente\"\n    }\n}",
+      "exposed" : false
+    },
+    "formOutput" : {
+      "type" : "expression",
+      "value" : "return $data.emprestimoInput;",
+      "exposed" : false
+    }
+  },
+  "hasValidationError" : false,
+  "uuid" : "99eac4c4-5e2d-4e09-a38a-604767b45511",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}

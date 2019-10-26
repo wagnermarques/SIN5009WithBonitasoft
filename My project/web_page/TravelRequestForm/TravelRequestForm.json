@@ -1,0 +1,20 @@
+{
+  "designerVersion" : "1.9.57",
+  "id" : "TravelRequestForm",
+  "name" : "TravelRequestForm",
+  "lastUpdate" : 1568397065375,
+  "rows" : [ [ ] ],
+  "assets" : [ {
+    "id" : "745c5c21-20c2-4cce-98fb-c45b4fb0a2fb",
+    "name" : "style.css",
+    "type" : "css",
+    "order" : 0,
+    "external" : false
+  } ],
+  "inactiveAssets" : [ ],
+  "data" : { },
+  "hasValidationError" : false,
+  "uuid" : "2a0da20d-88f6-44a2-83ba-c68fd37a54c1",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}

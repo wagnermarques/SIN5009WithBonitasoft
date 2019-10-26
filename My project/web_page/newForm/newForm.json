@@ -1,0 +1,30 @@
+{
+  "designerVersion" : "1.9.45",
+  "id" : "newForm",
+  "name" : "newForm",
+  "lastUpdate" : 1563977450942,
+  "rows" : [ [ {
+    "type" : "container",
+    "dimension" : {
+      "xs" : 12
+    },
+    "propertyValues" : { },
+    "reference" : "649d8e3d-e1ec-4753-af48-314f987c7ec2",
+    "hasValidationError" : false,
+    "id" : "pbContainer",
+    "rows" : [ [ ] ]
+  } ] ],
+  "assets" : [ {
+    "id" : "a05b3fad-dd41-4a8c-bcc9-44a9de824e9b",
+    "name" : "style.css",
+    "type" : "css",
+    "order" : 0,
+    "external" : false
+  } ],
+  "inactiveAssets" : [ ],
+  "data" : { },
+  "hasValidationError" : false,
+  "uuid" : "4bb35710-0618-4be7-82ed-b2dcff242ad6",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}

@@ -1,0 +1,90 @@
+#+Title: SIN5009 With Bonitasoft
+#+Subtitle:
+
+
+
+* Como rodar este projeto no Bonita Community
+
+* Como rodar este projeto no Bonita Community (linhas de comandos)
+  
+   #+NAME: def env vars                   
+   #+BEGIN_SRC shell :session s1 :results output :exports both
+      #starts code
+      export bonitaHome=/home/wagner/wagnerdocri@gmail.com3/progsativos/BonitaStudioCommunity-7.9.3      
+   #+END_SRC
+
+   #+RESULTS: def env vars
+
+   #+NAME: start bonita
+   #+BEGIN_SRC shell :session s1 :results output :exports both
+      #starts code
+      cd $bonitaHome
+      #ls .\BonitaStudioCommunity
+      ./BonitaStudioCommunity
+   #+END_SRC
+
+   #+RESULTS: start bonita
+   #+begin_example
+
+   [wagner@localhost BonitaStudioCommunity-7.9.3]$ [wagner@localhost BonitaStudioCommunity-7.9.3]$ total 6536
+   -rw-r--r--.  1 wagner wagner  292005 ago 29 11:24 artifacts.xml
+   -rw-r--r--.  1 wagner wagner    4827 ago 29 11:16 bonitasoft-icon-128-128-transparent.png
+   -rwxr-xr-x.  1 wagner wagner   61176 ago 29 11:23 BonitaStudioCommunity
+   -rw-r--r--.  1 wagner wagner     247 ago 29 11:24 BonitaStudioCommunity.ini
+   drwxr-xr-x.  9 wagner wagner    4096 set 19 07:58 configuration
+   drwxr-xr-x. 59 wagner wagner    4096 set 11 09:58 features
+   -rw-r--r--.  1 wagner wagner   18092 ago 29 11:16 gpl-2.0.txt
+   drwxr-xr-x.  7 wagner wagner    4096 set 11 09:58 jre
+   drwxr-xr-x.  4 wagner wagner    4096 set 11 09:58 p2
+   drwxr-xr-x. 12 wagner wagner  122880 set 11 09:59 plugins
+   -rwx------.  1 wagner wagner 6121482 set 11 09:59 uninstall
+   -rw-------.  1 wagner wagner   33694 set 11 09:59 uninstall.dat
+   drwxrwxr-x.  6 wagner wagner    4096 set 17 22:03 workspace
+   #+end_example
+
+BonitaStudioCommunity
+
+
+* Como ver os logs 
+  tail -f ~/SIN5009/.metadata/tomcat.log
+  tail -f ~/SIN5009/tomcat/server/logs/bonita.2019-09-18.log
+
+
+* start process
+  http://localhost:8080/bonita/portal/resource/process/Aquisicao%20de%20Viagem/1.0/content/?id=6267458928522755424&locale=en&mode=app
+
+* pages
+  http://localhost:8080/bonita/apps/aplicacaoteste1/home/
+
+
+* REST APIs
+** Rest Apis Overview
+   https://documentation.bonitasoft.com/bonita/7.5/rest-api-overview
+      
+** Business Data Model
+   https://documentation.bonitasoft.com/bonita/7.9/bpm-api
+
+** Activities
+   http://localhost:8080/bonita/API/bpm/activity
+   Search among activities
+   
+   Example: Get the human tasks that have been skipped. /API/bpm/humanTask?p=0&c=10&f=state=skipped
+
+** Processos
+   http://localhost:8080/bonita/API/bpm/process?id=6267458928522755424
+   
+   localhost:8080/bonita/loginservice?username=huguinho&password=123&redirect=true&redirectURL=http://localhost:8080/bonita/portal/homepage#?_p=tasklistinguser&_pf=1
+
+   All process definitions
+   http://localhost:8080/bonita/API/bpm/process?c=10&p=0
+
+
+   
+* Anotações
+  http://localhost:42297/bonita/#/en/home (ui designer)
+  http://localhost:15961/bonita/portal/homepage#?_pf=1&_p=tasklistinguser
+  http://localhost:15961/bonita/portal/homepage#?_p=custompage_processlistBonita&_pf=1
+  http://localhost:15961/bonita/portal/resource/process/Sol%20Emprestimo/1.0/content/?id=5983939284347472555&locale=en&mode=app
+
+* Refs
+
