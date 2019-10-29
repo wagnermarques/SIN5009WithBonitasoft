@@ -2249,3 +2249,1503 @@ AgAgAgAgAgAgAgAg-------------------------------------------------
 canal_de_comunicacao = formweb
 idInstanciaDoProcessoDoCliente = 12012
 AgAgAgAgAgAgAgAg-------------------------------------------------
+2019-10-28 23:23:11.731 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16005, waitingMessageId: 32016
+2019-10-28 23:23:11.731 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16006, waitingMessageId: 32016
+2019-10-28 23:23:11.731 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16007, waitingMessageId: 32016
+2019-10-28 23:23:11.764 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-28 23:23:11.764 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-28 23:23:11.764 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-28 23:23:11.765 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-28 23:23:11.765 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-28 23:23:11.766 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16006, 32016); to re-launch the execution of the message.
+2019-10-28 23:23:11.766 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-28 23:23:11.766 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16007, 32016); to re-launch the execution of the message.
+2019-10-28 23:23:11.767 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16005, 32016); to re-launch the execution of the message.
+2019-10-29 08:31:35.934 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server version:        Apache Tomcat/8.5.40
+2019-10-29 08:31:35.939 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server built:          Apr 10 2019 14:31:19 UTC
+2019-10-29 08:31:35.940 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server number:         8.5.40.0
+2019-10-29 08:31:35.940 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener OS Name:               Linux
+2019-10-29 08:31:35.941 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener OS Version:            5.3.6-100.fc29.x86_64
+2019-10-29 08:31:35.942 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Architecture:          amd64
+2019-10-29 08:31:35.942 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Java Home:             /home/wagner/wagnerdocri@gmail.com3/progsativos/BonitaStudioCommunity-7.9.3/jre
+2019-10-29 08:31:35.943 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener JVM Version:           11.0.2+9
+2019-10-29 08:31:35.943 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener JVM Vendor:            AdoptOpenJDK
+2019-10-29 08:31:35.944 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener CATALINA_BASE:         /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-10-29 08:31:35.944 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener CATALINA_HOME:         /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-10-29 08:31:35.947 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Xmx512m
+2019-10-29 08:31:35.947 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DnoCacheCustomPage=true
+2019-10-29 08:31:35.948 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.home=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-10-29 08:31:35.948 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DCATALINA_HOME=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-10-29 08:31:35.949 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DCATALINA_TMPDIR=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/temp
+2019-10-29 08:31:35.949 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.io.tmpdir=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/temp
+2019-10-29 08:31:35.950 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbtm.root=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-10-29 08:31:35.950 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dwtp.deploy=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps
+2019-10-29 08:31:35.951 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dsysprop.bonita.db.vendor=h2
+2019-10-29 08:31:35.951 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.platform.setup.folder=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/setup
+2019-10-29 08:31:35.952 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.engine.incident.folder=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/logs
+2019-10-29 08:31:35.952 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2019-10-29 08:31:35.953 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.config.file=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/logging.properties
+2019-10-29 08:31:35.953 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcom.arjuna.ats.arjuna.common.propertiesFile=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/jbossts-properties.xml
+2019-10-29 08:31:35.953 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dfile.encoding=UTF-8
+2019-10-29 08:31:35.954 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.studio.watchdog.port=6969
+2019-10-29 08:31:35.954 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.studio.watchdog.timer=20000
+2019-10-29 08:31:35.954 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Declipse.product=org.bonitasoft.studio.application.application
+2019-10-29 08:31:35.955 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbonita.web.register=1
+2019-10-29 08:31:35.955 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.h2.database.dir=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/My project/h2_database
+2019-10-29 08:31:35.956 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbonita.csrf.cookie.path=/
+2019-10-29 08:31:35.956 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.base=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-10-29 08:31:35.957 -0300 INFORMAÇÕES: org.apache.catalina.core.AprLifecycleListener The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-10-29 08:31:36.064 -0300 INFORMAÇÕES: org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-15961"]
+2019-10-29 08:31:36.085 -0300 INFORMAÇÕES: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2019-10-29 08:31:36.103 -0300 INFORMAÇÕES: org.apache.coyote.ajp.AjpNioProtocol Initializing ProtocolHandler ["ajp-nio-34795"]
+2019-10-29 08:31:36.105 -0300 INFORMAÇÕES: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2019-10-29 08:31:36.110 -0300 INFORMAÇÕES: org.apache.catalina.startup.Catalina Initialization processed in 1370 ms
+2019-10-29 08:31:37.133 -0300 INFORMAÇÕES: org.apache.catalina.core.StandardService Starting service [Catalina]
+2019-10-29 08:31:37.134 -0300 INFORMAÇÕES: org.apache.catalina.core.StandardEngine Starting Servlet Engine: Apache Tomcat/8.5.40
+2019-10-29 08:31:37.760 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying configuration descriptor [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/Catalina/localhost/bonita.xml]
+2019-10-29 08:31:43.032 -0300 ADVERTÊNCIA: org.apache.catalina.core.NamingContextListener naming.jmxRegistrationFailed
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.dom4j.io.SAXContentHandler (file:/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/bonita/WEB-INF/lib/dom4j-1.6.1.jar) to method com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy.getEncoding()
+WARNING: Please consider reporting this to the maintainers of org.dom4j.io.SAXContentHandler
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2019-10-29 08:32:12.331 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16006, waitingMessageId: 32016
+2019-10-29 08:32:12.331 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16007, waitingMessageId: 32016
+2019-10-29 08:32:12.342 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-29 08:32:12.343 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 08:32:12.344 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16007, 32016); to re-launch the execution of the message.
+2019-10-29 08:32:12.333 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-29 08:32:12.345 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 08:32:12.346 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16006, 32016); to re-launch the execution of the message.
+2019-10-29 08:32:12.331 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16005, waitingMessageId: 32016
+2019-10-29 08:32:12.347 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-29 08:32:12.348 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 08:32:12.349 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16005, 32016); to re-launch the execution of the message.
+done
+2019-10-29 08:32:14.395 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of configuration descriptor [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/Catalina/localhost/bonita.xml] has finished in [36,636] ms
+2019-10-29 08:32:14.473 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying web application archive [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/studio-watchdog-7.2.0.war]
+2019-10-29 08:32:14.686 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of web application archive [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/studio-watchdog-7.2.0.war] has finished in [213] ms
+2019-10-29 08:32:14.687 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying web application directory [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/manager]
+2019-10-29 08:32:14.769 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of web application directory [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/manager] has finished in [82] ms
+2019-10-29 08:32:14.776 -0300 INFORMAÇÕES: org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-15961"]
+2019-10-29 08:32:14.794 -0300 INFORMAÇÕES: org.apache.coyote.ajp.AjpNioProtocol Starting ProtocolHandler ["ajp-nio-34795"]
+2019-10-29 08:32:14.818 -0300 INFORMAÇÕES: org.apache.catalina.startup.Catalina Server startup in 38707 ms
+2019-10-29 08:32:23.448 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16007, waitingMessageId: 32016
+2019-10-29 08:32:23.465 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-29 08:32:23.468 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 08:32:23.469 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16007, 32016); to re-launch the execution of the message.
+2019-10-29 08:32:23.485 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16005, waitingMessageId: 32016
+2019-10-29 08:32:23.488 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-29 08:32:23.496 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 08:32:23.501 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16005, 32016); to re-launch the execution of the message.
+2019-10-29 08:32:23.502 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16006, waitingMessageId: 32016
+2019-10-29 08:32:23.505 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-29 08:32:23.506 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 08:32:23.512 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16006, 32016); to re-launch the execution of the message.
+CliCliCliCliCli-----------------------------------------------
+canal_de_comunicacao = formweb
+CliCliCliCliCli-----------------------------------------------
+CliCliCliCliCli-----------------------------------------------
+taks=log
+canal_de_comunicacao = formweb
+CliCliCliCliCli-----------------------------------------------
+AgAgAgAgAgAgAgAg-------------------------------------------------
+canal_de_comunicacao = formweb
+idInstanciaDoProcessoDoCliente = 13007
+AgAgAgAgAgAgAgAg-------------------------------------------------
+2019-10-29 09:00:46.070 -0300 INFORMAÇÕES: org.apache.coyote.http11.Http11Processor Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:547)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:684)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+CliCliCliCliCli-----------------------------------------------
+canal_de_comunicacao = formweb
+CliCliCliCliCli-----------------------------------------------
+2019-10-29 09:38:44.514 -0300 INFORMAÇÕES: org.apache.coyote.http11.Http11Processor Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:547)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:684)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 11:05:40.380 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16006, waitingMessageId: 36002
+2019-10-29 11:05:40.382 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16005, waitingMessageId: 36002
+2019-10-29 11:05:40.381 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16007, waitingMessageId: 36002
+2019-10-29 11:05:40.503 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-29 11:05:40.504 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-29 11:05:40.505 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 11:05:40.507 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16006, 36002); to re-launch the execution of the message.
+2019-10-29 11:05:40.503 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-29 11:05:40.509 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 11:05:40.510 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16007, 36002); to re-launch the execution of the message.
+2019-10-29 11:05:40.509 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 11:05:40.514 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16005, 36002); to re-launch the execution of the message.
+2019-10-29 11:14:22.030 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server version:        Apache Tomcat/8.5.40
+2019-10-29 11:14:22.040 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server built:          Apr 10 2019 14:31:19 UTC
+2019-10-29 11:14:22.041 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server number:         8.5.40.0
+2019-10-29 11:14:22.041 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener OS Name:               Linux
+2019-10-29 11:14:22.042 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener OS Version:            5.3.6-100.fc29.x86_64
+2019-10-29 11:14:22.042 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Architecture:          amd64
+2019-10-29 11:14:22.043 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Java Home:             /home/wagner/wagnerdocri@gmail.com3/progsativos/BonitaStudioCommunity-7.9.3/jre
+2019-10-29 11:14:22.050 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener JVM Version:           11.0.2+9
+2019-10-29 11:14:22.051 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener JVM Vendor:            AdoptOpenJDK
+2019-10-29 11:14:22.051 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener CATALINA_BASE:         /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-10-29 11:14:22.052 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener CATALINA_HOME:         /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-10-29 11:14:22.058 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Xmx512m
+2019-10-29 11:14:22.059 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DnoCacheCustomPage=true
+2019-10-29 11:14:22.060 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.home=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-10-29 11:14:22.060 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DCATALINA_HOME=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-10-29 11:14:22.061 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DCATALINA_TMPDIR=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/temp
+2019-10-29 11:14:22.062 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.io.tmpdir=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/temp
+2019-10-29 11:14:22.062 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbtm.root=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-10-29 11:14:22.063 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dwtp.deploy=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps
+2019-10-29 11:14:22.063 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dsysprop.bonita.db.vendor=h2
+2019-10-29 11:14:22.070 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.platform.setup.folder=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/setup
+2019-10-29 11:14:22.071 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.engine.incident.folder=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/logs
+2019-10-29 11:14:22.071 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2019-10-29 11:14:22.076 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.config.file=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/logging.properties
+2019-10-29 11:14:22.080 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcom.arjuna.ats.arjuna.common.propertiesFile=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/jbossts-properties.xml
+2019-10-29 11:14:22.081 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dfile.encoding=UTF-8
+2019-10-29 11:14:22.081 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.studio.watchdog.port=6969
+2019-10-29 11:14:22.082 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.studio.watchdog.timer=20000
+2019-10-29 11:14:22.082 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Declipse.product=org.bonitasoft.studio.application.application
+2019-10-29 11:14:22.083 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbonita.web.register=1
+2019-10-29 11:14:22.088 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.h2.database.dir=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/My project/h2_database
+2019-10-29 11:14:22.088 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbonita.csrf.cookie.path=/
+2019-10-29 11:14:22.089 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.base=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-10-29 11:14:22.090 -0300 INFORMAÇÕES: org.apache.catalina.core.AprLifecycleListener The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-10-29 11:14:22.183 -0300 INFORMAÇÕES: org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-15961"]
+2019-10-29 11:14:22.224 -0300 INFORMAÇÕES: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2019-10-29 11:14:22.246 -0300 INFORMAÇÕES: org.apache.coyote.ajp.AjpNioProtocol Initializing ProtocolHandler ["ajp-nio-34795"]
+2019-10-29 11:14:22.249 -0300 INFORMAÇÕES: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2019-10-29 11:14:22.254 -0300 INFORMAÇÕES: org.apache.catalina.startup.Catalina Initialization processed in 1777 ms
+2019-10-29 11:14:23.099 -0300 INFORMAÇÕES: org.apache.catalina.core.StandardService Starting service [Catalina]
+2019-10-29 11:14:23.100 -0300 INFORMAÇÕES: org.apache.catalina.core.StandardEngine Starting Servlet Engine: Apache Tomcat/8.5.40
+2019-10-29 11:14:23.543 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying configuration descriptor [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/Catalina/localhost/bonita.xml]
+2019-10-29 11:14:27.922 -0300 ADVERTÊNCIA: org.apache.catalina.core.NamingContextListener naming.jmxRegistrationFailed
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.dom4j.io.SAXContentHandler (file:/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/bonita/WEB-INF/lib/dom4j-1.6.1.jar) to method com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy.getEncoding()
+WARNING: Please consider reporting this to the maintainers of org.dom4j.io.SAXContentHandler
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2019-10-29 11:15:06.214 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16007, waitingMessageId: 36002
+2019-10-29 11:15:06.215 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16005, waitingMessageId: 36002
+2019-10-29 11:15:06.214 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16006, waitingMessageId: 36002
+2019-10-29 11:15:06.217 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-29 11:15:06.216 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-29 11:15:06.224 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 11:15:06.219 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-29 11:15:06.235 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 11:15:06.237 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16006, 36002); to re-launch the execution of the message.
+2019-10-29 11:15:06.223 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 11:15:06.238 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16005, 36002); to re-launch the execution of the message.
+2019-10-29 11:15:06.225 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16007, 36002); to re-launch the execution of the message.
+done
+2019-10-29 11:15:09.231 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of configuration descriptor [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/Catalina/localhost/bonita.xml] has finished in [45,687] ms
+2019-10-29 11:15:09.397 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying web application archive [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/studio-watchdog-7.2.0.war]
+2019-10-29 11:15:09.752 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of web application archive [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/studio-watchdog-7.2.0.war] has finished in [354] ms
+2019-10-29 11:15:09.753 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying web application directory [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/manager]
+2019-10-29 11:15:09.933 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of web application directory [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/manager] has finished in [180] ms
+2019-10-29 11:15:09.937 -0300 INFORMAÇÕES: org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-15961"]
+2019-10-29 11:15:09.960 -0300 INFORMAÇÕES: org.apache.coyote.ajp.AjpNioProtocol Starting ProtocolHandler ["ajp-nio-34795"]
+2019-10-29 11:15:09.971 -0300 INFORMAÇÕES: org.apache.catalina.startup.Catalina Server startup in 47716 ms
+2019-10-29 11:15:24.454 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16007, waitingMessageId: 36002
+2019-10-29 11:15:24.461 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-29 11:15:24.470 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 11:15:24.473 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16007, 36002); to re-launch the execution of the message.
+2019-10-29 11:15:24.472 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16005, waitingMessageId: 36002
+2019-10-29 11:15:24.472 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16006, waitingMessageId: 36002
+2019-10-29 11:15:24.478 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-29 11:15:24.479 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-29 11:15:24.482 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 11:15:24.484 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 11:15:24.487 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16005, 36002); to re-launch the execution of the message.
+2019-10-29 11:15:24.487 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16006, 36002); to re-launch the execution of the message.
+CliCliCliCliCli-----------------------------------------------
+canal_de_comunicacao = formweb
+CliCliCliCliCli-----------------------------------------------
+CliCliCliCliCli-----------------------------------------------
+canal_de_comunicacao = formweb
+CliCliCliCliCli-----------------------------------------------
+CliCliCliCliCli-----------------------------------------------
+canal_de_comunicacao = formweb
+CliCliCliCliCli-----------------------------------------------
+CliCliCliCliCli-----------------------------------------------
+canal_de_comunicacao = formweb
+CliCliCliCliCli-----------------------------------------------
+CliCliCliCliCli-----------------------------------------------
+canal_de_comunicacao = formweb
+CliCliCliCliCli-----------------------------------------------
+CliCliCliCliCli-----------------------------------------------
+canal_de_comunicacao = formweb
+CliCliCliCliCli-----------------------------------------------
+CliCliCliCliCli-----------------------------------------------
+canal_de_comunicacao = formweb
+CliCliCliCliCli-----------------------------------------------
+2019-10-29 15:55:55.189 -0300 INFORMAÇÕES: org.apache.coyote.http11.Http11Processor Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:430)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:684)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 17:29:50.505 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server version:        Apache Tomcat/8.5.40
+2019-10-29 17:29:50.521 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server built:          Apr 10 2019 14:31:19 UTC
+2019-10-29 17:29:50.522 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Server number:         8.5.40.0
+2019-10-29 17:29:50.523 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener OS Name:               Linux
+2019-10-29 17:29:50.527 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener OS Version:            5.3.6-100.fc29.x86_64
+2019-10-29 17:29:50.528 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Architecture:          amd64
+2019-10-29 17:29:50.528 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Java Home:             /home/wagner/wagnerdocri@gmail.com3/progsativos/BonitaStudioCommunity-7.9.3/jre
+2019-10-29 17:29:50.529 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener JVM Version:           11.0.2+9
+2019-10-29 17:29:50.532 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener JVM Vendor:            AdoptOpenJDK
+2019-10-29 17:29:50.533 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener CATALINA_BASE:         /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-10-29 17:29:50.534 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener CATALINA_HOME:         /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-10-29 17:29:50.538 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Xmx512m
+2019-10-29 17:29:50.540 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DnoCacheCustomPage=true
+2019-10-29 17:29:50.540 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.home=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-10-29 17:29:50.541 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DCATALINA_HOME=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-10-29 17:29:50.544 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -DCATALINA_TMPDIR=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/temp
+2019-10-29 17:29:50.544 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.io.tmpdir=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/temp
+2019-10-29 17:29:50.544 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbtm.root=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-10-29 17:29:50.545 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dwtp.deploy=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps
+2019-10-29 17:29:50.545 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dsysprop.bonita.db.vendor=h2
+2019-10-29 17:29:50.545 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.platform.setup.folder=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/setup
+2019-10-29 17:29:50.546 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.engine.incident.folder=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/logs
+2019-10-29 17:29:50.547 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2019-10-29 17:29:50.548 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.config.file=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/logging.properties
+2019-10-29 17:29:50.548 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcom.arjuna.ats.arjuna.common.propertiesFile=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/jbossts-properties.xml
+2019-10-29 17:29:50.549 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dfile.encoding=UTF-8
+2019-10-29 17:29:50.549 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.studio.watchdog.port=6969
+2019-10-29 17:29:50.550 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.studio.watchdog.timer=20000
+2019-10-29 17:29:50.551 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Declipse.product=org.bonitasoft.studio.application.application
+2019-10-29 17:29:50.552 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbonita.web.register=1
+2019-10-29 17:29:50.553 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.h2.database.dir=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/My project/h2_database
+2019-10-29 17:29:50.553 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbonita.csrf.cookie.path=/
+2019-10-29 17:29:50.554 -0300 INFORMAÇÕES: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.base=/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server
+2019-10-29 17:29:50.556 -0300 INFORMAÇÕES: org.apache.catalina.core.AprLifecycleListener The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-10-29 17:29:50.701 -0300 INFORMAÇÕES: org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-15961"]
+2019-10-29 17:29:50.769 -0300 INFORMAÇÕES: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2019-10-29 17:29:50.815 -0300 INFORMAÇÕES: org.apache.coyote.ajp.AjpNioProtocol Initializing ProtocolHandler ["ajp-nio-34795"]
+2019-10-29 17:29:50.820 -0300 INFORMAÇÕES: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2019-10-29 17:29:50.827 -0300 INFORMAÇÕES: org.apache.catalina.startup.Catalina Initialization processed in 2524 ms
+2019-10-29 17:29:51.870 -0300 INFORMAÇÕES: org.apache.catalina.core.StandardService Starting service [Catalina]
+2019-10-29 17:29:51.878 -0300 INFORMAÇÕES: org.apache.catalina.core.StandardEngine Starting Servlet Engine: Apache Tomcat/8.5.40
+2019-10-29 17:29:53.301 -0300 ADVERTÊNCIA: org.apache.catalina.util.SessionIdGeneratorBase Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [108] milliseconds.
+2019-10-29 17:29:53.387 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying configuration descriptor [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/Catalina/localhost/bonita.xml]
+2019-10-29 17:29:58.829 -0300 ADVERTÊNCIA: org.apache.catalina.core.NamingContextListener naming.jmxRegistrationFailed
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.dom4j.io.SAXContentHandler (file:/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/bonita/WEB-INF/lib/dom4j-1.6.1.jar) to method com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy.getEncoding()
+WARNING: Please consider reporting this to the maintainers of org.dom4j.io.SAXContentHandler
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+done
+2019-10-29 17:30:46.376 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of configuration descriptor [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/conf/Catalina/localhost/bonita.xml] has finished in [52,988] ms
+2019-10-29 17:30:46.435 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying web application archive [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/studio-watchdog-7.2.0.war]
+2019-10-29 17:30:46.605 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of web application archive [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/studio-watchdog-7.2.0.war] has finished in [170] ms
+2019-10-29 17:30:46.610 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deploying web application directory [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/manager]
+2019-10-29 17:30:46.739 -0300 INFORMAÇÕES: org.apache.catalina.startup.HostConfig Deployment of web application directory [/home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft/tomcat/server/webapps/manager] has finished in [129] ms
+2019-10-29 17:30:46.758 -0300 INFORMAÇÕES: org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-15961"]
+2019-10-29 17:30:46.825 -0300 INFORMAÇÕES: org.apache.coyote.ajp.AjpNioProtocol Starting ProtocolHandler ["ajp-nio-34795"]
+2019-10-29 17:30:46.865 -0300 INFORMAÇÕES: org.apache.catalina.startup.Catalina Server startup in 56037 ms
+2019-10-29 17:30:51.739 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16005, waitingMessageId: 40004
+2019-10-29 17:30:51.748 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-29 17:30:51.753 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 17:30:51.758 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16005, 40004); to re-launch the execution of the message.
+2019-10-29 17:30:51.768 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16006, waitingMessageId: 40004
+2019-10-29 17:30:51.779 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16007, waitingMessageId: 40004
+2019-10-29 17:30:51.819 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-29 17:30:51.819 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-29 17:30:51.822 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 17:30:51.823 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 17:30:51.825 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16006, 40004); to re-launch the execution of the message.
+2019-10-29 17:30:51.826 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16007, 40004); to re-launch the execution of the message.
+2019-10-29 17:31:05.035 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16007, waitingMessageId: 40004
+2019-10-29 17:31:05.041 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-29 17:31:05.050 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 17:31:05.052 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16007, 40004); to re-launch the execution of the message.
+2019-10-29 17:31:05.047 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16005, waitingMessageId: 40004
+2019-10-29 17:31:05.047 -0300 GRAVE: INCIDENT1 An incident occurred: ExecuteMessageCoupleWork: messageInstanceId: 16006, waitingMessageId: 40004
+2019-10-29 17:31:05.055 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-29 17:31:05.056 -0300 GRAVE: INCIDENT1 Exception was
+org.bonitasoft.engine.core.process.instance.api.exceptions.SProcessInstanceCreationException: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:852)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:807)
+	at org.bonitasoft.engine.execution.event.EventsHandler.instantiateProcess(EventsHandler.java:417)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:355)
+	at org.bonitasoft.engine.execution.event.EventsHandler.triggerCatchEvent(EventsHandler.java:321)
+	at org.bonitasoft.engine.execution.work.ExecuteMessageCoupleWork.work(ExecuteMessageCoupleWork.java:75)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.lambda$work$0(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.TxBonitaWork.work(TxBonitaWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:41)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:59)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.bonitasoft.engine.expression.exception.SExpressionEvaluationException: Declared return type class java.lang.Long is not compatible with evaluated type class java.lang.String for expression idInstanciaDoProcessoDoCliente
+	at org.bonitasoft.engine.expression.impl.ReturnTypeChecker.checkReturnType(ReturnTypeChecker.java:81)
+	at org.bonitasoft.engine.expression.impl.ExpressionServiceImpl.evaluate(ExpressionServiceImpl.java:175)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsOfKind(ExpressionResolverServiceImpl.java:225)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateAllExpressionsWithNoDependencies(ExpressionResolverServiceImpl.java:182)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluateExpressionsFlatten(ExpressionResolverServiceImpl.java:115)
+	at org.bonitasoft.engine.core.expression.control.api.impl.ExpressionResolverServiceImpl.evaluate(ExpressionResolverServiceImpl.java:83)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.evaluateExpression(BPMInstancesCreator.java:603)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstance(BPMInstancesCreator.java:597)
+	at org.bonitasoft.engine.bpm.model.impl.BPMInstancesCreator.createDataInstances(BPMInstancesCreator.java:571)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.initialize(ProcessExecutorImpl.java:381)
+	at org.bonitasoft.engine.execution.ProcessExecutorImpl.start(ProcessExecutorImpl.java:837)
+	... 17 more
+
+2019-10-29 17:31:05.059 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 17:31:05.061 -0300 GRAVE: INCIDENT1 We were unable to handle the failure on the elements because of
+org.bonitasoft.engine.core.process.instance.api.exceptions.SFlowNodeNotFoundException: Flow node instance with id -1 not found
+	at org.bonitasoft.engine.core.process.instance.impl.FlowNodeInstancesServiceImpl.getFlowNodeInstance(FlowNodeInstancesServiceImpl.java:228)
+	at org.bonitasoft.engine.execution.work.failurewrapping.FlowNodeDefinitionAndInstanceContextWork.setExceptionContext(FlowNodeDefinitionAndInstanceContextWork.java:51)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:54)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork$1.call(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.transaction.JTATransactionServiceImpl.executeInTransaction(JTATransactionServiceImpl.java:274)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.handleFailure(TxInHandleFailureWrappingWork.java:50)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailureWrappedWork(InSessionBonitaWork.java:103)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.handleFailure(InSessionBonitaWork.java:79)
+	at org.bonitasoft.engine.work.WorkExecutorServiceImpl.onFailure(WorkExecutorServiceImpl.java:80)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$1(BonitaThreadPoolExecutor.java:107)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2019-10-29 17:31:05.062 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16005, 40004); to re-launch the execution of the message.
+2019-10-29 17:31:05.064 -0300 GRAVE: INCIDENT1 Procedure to recover: call processApi.executeMessageCouple(16006, 40004); to re-launch the execution of the message.
+CliCliCliCliCli-----------------------------------------------
+canal_de_comunicacao = formweb
+CliCliCliCliCli-----------------------------------------------

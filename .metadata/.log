@@ -10006,3 +10006,1266 @@ Java Model Exception: Java Model Status [BonitaScriptContext.groovy [in <default
 
 !ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:05:46.464
 !MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-28 23:22:55.774
+!MESSAGE Stopping RESTLET server...
+
+!ENTRY org.bonitasoft.studio.common 4 0 2019-10-28 23:23:01.437
+!MESSAGE 
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:300)
+	at org.bonitasoft.studio.designer.core.UIDesignerServerManager.stop(UIDesignerServerManager.java:206)
+	at org.bonitasoft.studio.application.BonitaStudioWorkbenchAdvisor$PreShutdownStudio.run(BonitaStudioWorkbenchAdvisor.java:100)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2019-10-28 23:23:01.438
+!MESSAGE Terminate failed
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:23:01.498
+!MESSAGE Attempt to login as install:install
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:23:01.566
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:23:11.592
+!MESSAGE Stopping tomcat server...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:23:11.592
+!MESSAGE Shutting down watchdog...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:23:11.593
+!MESSAGE Watchdog shutdown ...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:23:11.729
+!MESSAGE The watchdog socket has been closed.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:23:18.625
+!MESSAGE Tomcat server stopped
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-28 23:23:55.740
+!MESSAGE UI Designer has been stopped.
+!SESSION 2019-10-29 08:30:28.031 -----------------------------------------------
+eclipse.buildId=7.9.3.
+java.version=11.0.2
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.525
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.PreferenceManager.migrateInstanceScopePreferences(PreferenceManager.java:288)
+	at org.eclipse.core.internal.net.PreferenceManager.migrate(PreferenceManager.java:256)
+	at org.eclipse.core.internal.net.ProxyManager.checkMigrated(ProxyManager.java:392)
+	at org.eclipse.core.internal.net.ProxyManager.initialize(ProxyManager.java:262)
+	at org.eclipse.core.internal.net.Activator.start(Activator.java:178)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution.getProxyService(UpdateRSSContribution.java:146)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:99)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.611
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.PreferenceManager.migrateInstanceScopePreferences(PreferenceManager.java:291)
+	at org.eclipse.core.internal.net.PreferenceManager.migrate(PreferenceManager.java:256)
+	at org.eclipse.core.internal.net.ProxyManager.checkMigrated(ProxyManager.java:392)
+	at org.eclipse.core.internal.net.ProxyManager.initialize(ProxyManager.java:262)
+	at org.eclipse.core.internal.net.Activator.start(Activator.java:178)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution.getProxyService(UpdateRSSContribution.java:146)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:99)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.613
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.PreferenceManager.migrateInstanceScopePreferences(PreferenceManager.java:288)
+	at org.eclipse.core.internal.net.PreferenceManager.migrate(PreferenceManager.java:256)
+	at org.eclipse.core.internal.net.ProxyManager.checkMigrated(ProxyManager.java:392)
+	at org.eclipse.core.internal.net.ProxyManager.initialize(ProxyManager.java:262)
+	at org.eclipse.core.internal.net.Activator.start(Activator.java:178)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution.getProxyService(UpdateRSSContribution.java:146)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:99)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.615
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.PreferenceManager.migrateInstanceScopePreferences(PreferenceManager.java:291)
+	at org.eclipse.core.internal.net.PreferenceManager.migrate(PreferenceManager.java:256)
+	at org.eclipse.core.internal.net.ProxyManager.checkMigrated(ProxyManager.java:392)
+	at org.eclipse.core.internal.net.ProxyManager.initialize(ProxyManager.java:262)
+	at org.eclipse.core.internal.net.Activator.start(Activator.java:178)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution.getProxyService(UpdateRSSContribution.java:146)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:99)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.618
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.PreferenceManager.migrateInstanceScopePreferences(PreferenceManager.java:288)
+	at org.eclipse.core.internal.net.PreferenceManager.migrate(PreferenceManager.java:256)
+	at org.eclipse.core.internal.net.ProxyManager.checkMigrated(ProxyManager.java:392)
+	at org.eclipse.core.internal.net.ProxyManager.initialize(ProxyManager.java:262)
+	at org.eclipse.core.internal.net.Activator.start(Activator.java:178)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution.getProxyService(UpdateRSSContribution.java:146)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:99)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.620
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.PreferenceManager.migrateInstanceScopePreferences(PreferenceManager.java:291)
+	at org.eclipse.core.internal.net.PreferenceManager.migrate(PreferenceManager.java:256)
+	at org.eclipse.core.internal.net.ProxyManager.checkMigrated(ProxyManager.java:392)
+	at org.eclipse.core.internal.net.ProxyManager.initialize(ProxyManager.java:262)
+	at org.eclipse.core.internal.net.Activator.start(Activator.java:178)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution.getProxyService(UpdateRSSContribution.java:146)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:99)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.622
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyType.initialize(ProxyType.java:520)
+	at org.eclipse.core.internal.net.ProxyManager.initialize(ProxyManager.java:267)
+	at org.eclipse.core.internal.net.Activator.start(Activator.java:178)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution.getProxyService(UpdateRSSContribution.java:146)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:99)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.626
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyType.initialize(ProxyType.java:520)
+	at org.eclipse.core.internal.net.ProxyManager.initialize(ProxyManager.java:267)
+	at org.eclipse.core.internal.net.Activator.start(Activator.java:178)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution.getProxyService(UpdateRSSContribution.java:146)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:99)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.629
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyType.initialize(ProxyType.java:520)
+	at org.eclipse.core.internal.net.ProxyManager.initialize(ProxyManager.java:267)
+	at org.eclipse.core.internal.net.Activator.start(Activator.java:178)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution.getProxyService(UpdateRSSContribution.java:146)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:99)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.704
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.705
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.706
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.708
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.709
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.710
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.711
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.712
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.712
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.713
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.714
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.715
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.715
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.717
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.718
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.721
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.723
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-29 08:30:41.724
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.filebuffers 4 0 2019-10-29 08:30:50.156
+!MESSAGE The content type with id "org.eclipse.buildship.core.files.gradlebuildscript" specified in the extension point does not exist.
+
+!ENTRY org.eclipse.core.filebuffers 4 0 2019-10-29 08:30:50.158
+!MESSAGE The content type with id "org.eclipse.buildship.core.files.gradlebuildscript" specified in the extension point does not exist.
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-29 08:30:55.066
+!MESSAGE Starting UI Designer...
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-29 08:30:55.187
+!MESSAGE Starting RESTLET server on port 42415...
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-29 08:31:28.814
+!MESSAGE UI Designer has been started on http://localhost:42297/bonita
+
+!ENTRY org.bonitasoft.studio.common 1 0 2019-10-29 08:31:29.118
+!MESSAGE Configuring bonita client on host localhost:8080 with API_TYPE=HTTP
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 08:31:29.173
+!MESSAGE Starting tomcat...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 08:31:29.183
+!MESSAGE Starting studio watchdog on 6969
+
+!ENTRY org.bonitasoft.studio.common 1 0 2019-10-29 08:31:32.895
+!MESSAGE Configuring bonita client on host localhost:15961 with API_TYPE=HTTP
+
+!ENTRY org.bonitasoft.studio.application 1 0 2019-10-29 08:31:46.490
+!MESSAGE Startup duration : 00:01:10
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 08:32:16.590
+!MESSAGE Tomcat server started.
+
+!ENTRY org.bonitasoft.studio.businessobject 1 0 2019-10-29 08:32:17.217
+!MESSAGE Deploying Business Data Model...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 08:36:25.872
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 08:36:25.940
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 08:36:27.718
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 08:36:27.745
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 08:36:28.434
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 08:36:29.996
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 08:36:30.085
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 08:36:30.110
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 08:36:30.420
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 08:36:32.098
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 08:36:32.397
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 08:36:32.449
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 08:36:33.089
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 08:36:33.124
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 08:36:33.274
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 08:36:33.312
+!MESSAGE Login successful.
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-10-29 08:36:39.730
+!MESSAGE An internal error occurred during: "Running...".
+!STACK 0
+java.lang.NullPointerException: Job of type org.bonitasoft.studio.engine.command.RunProcessCommand$1 returned no status.
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:83)
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:02:54.663
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:02:54.902
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:02:56.445
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:02:56.457
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:02:57.243
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:02:59.185
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:02:59.234
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:02:59.242
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:02:59.524
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:03:02.059
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:03:02.190
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:03:02.199
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:03:03.813
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:03:03.826
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:03:04.705
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:03:04.714
+!MESSAGE Login successful.
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-10-29 11:03:06.866
+!MESSAGE An internal error occurred during: "Running...".
+!STACK 0
+java.lang.NullPointerException: Job of type org.bonitasoft.studio.engine.command.RunProcessCommand$1 returned no status.
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:83)
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-29 11:05:32.861
+!MESSAGE Stopping RESTLET server...
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-29 11:05:36.516
+!MESSAGE UI Designer has been stopped.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:05:36.749
+!MESSAGE Attempt to login as install:install
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:05:36.768
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:05:40.373
+!MESSAGE Stopping tomcat server...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:05:40.373
+!MESSAGE Shutting down watchdog...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:05:40.374
+!MESSAGE Watchdog shutdown ...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:05:40.412
+!MESSAGE The watchdog socket has been closed.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:05:44.131
+!MESSAGE Tomcat server stopped
+!SESSION 2019-10-29 11:13:21.446 -----------------------------------------------
+eclipse.buildId=7.9.3.
+java.version=11.0.2
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft
+
+!ENTRY org.eclipse.core.filebuffers 4 0 2019-10-29 11:13:41.116
+!MESSAGE The content type with id "org.eclipse.buildship.core.files.gradlebuildscript" specified in the extension point does not exist.
+
+!ENTRY org.eclipse.core.filebuffers 4 0 2019-10-29 11:13:41.170
+!MESSAGE The content type with id "org.eclipse.buildship.core.files.gradlebuildscript" specified in the extension point does not exist.
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-29 11:13:46.337
+!MESSAGE Starting UI Designer...
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-29 11:13:46.454
+!MESSAGE Starting RESTLET server on port 40235...
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-29 11:14:16.986
+!MESSAGE UI Designer has been started on http://localhost:42297/bonita
+
+!ENTRY org.bonitasoft.studio.common 1 0 2019-10-29 11:14:17.180
+!MESSAGE Configuring bonita client on host localhost:8080 with API_TYPE=HTTP
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:14:17.206
+!MESSAGE Starting tomcat...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:14:17.226
+!MESSAGE Starting studio watchdog on 6969
+
+!ENTRY org.bonitasoft.studio.common 1 0 2019-10-29 11:14:18.521
+!MESSAGE Configuring bonita client on host localhost:15961 with API_TYPE=HTTP
+
+!ENTRY org.bonitasoft.studio.application 1 0 2019-10-29 11:14:36.221
+!MESSAGE Startup duration : 00:01:07
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:15:15.035
+!MESSAGE Tomcat server started.
+
+!ENTRY org.bonitasoft.studio.businessobject 1 0 2019-10-29 11:15:16.698
+!MESSAGE Deploying Business Data Model...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:19:05.464
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:19:05.600
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:19:07.797
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:19:07.820
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:19:08.431
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:19:10.559
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:19:10.683
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:19:10.700
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:19:11.239
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:19:14.000
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:19:14.269
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:19:14.290
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:19:14.689
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:19:14.724
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:19:15.047
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:19:15.068
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:23:45.936
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:23:46.025
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:23:46.373
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:23:46.386
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:23:46.853
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:23:47.034
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:23:47.111
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:23:47.129
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:23:47.571
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:23:48.284
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:23:48.474
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:23:48.500
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:23:48.754
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:23:48.771
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:23:48.919
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:23:48.931
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:28:36.582
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:28:36.622
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:28:37.046
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:28:37.058
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:28:37.531
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:28:37.599
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:28:37.662
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:28:37.673
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:28:37.821
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:28:38.324
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:28:38.515
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:28:38.528
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:28:38.687
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:28:38.696
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:28:38.839
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 11:28:38.848
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 15:44:44.557
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 15:44:55.905
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 15:45:45.350
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 15:45:45.869
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 15:45:54.755
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 15:45:57.951
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 15:45:58.006
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 15:45:58.086
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 15:46:02.005
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 15:46:10.845
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 15:46:10.948
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 15:46:10.986
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 15:46:16.703
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 15:46:16.709
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 15:46:16.856
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 15:46:16.863
+!MESSAGE Login successful.
+
+!ENTRY org.eclipse.jface.text 4 0 2019-10-29 16:52:46.912
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.LinkedList$ListItr.next(Unknown Source)
+	at org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1205)
+	at org.eclipse.jdt.groovy.core.util.DepthFirstVisitor.visitClass(DepthFirstVisitor.java:169)
+	at org.codehaus.groovy.eclipse.codebrowsing.requestor.ASTNodeFinder.visitClass(ASTNodeFinder.java:103)
+	at org.eclipse.jdt.groovy.core.util.DepthFirstVisitor.visitModule(DepthFirstVisitor.java:135)
+	at org.codehaus.groovy.eclipse.codebrowsing.requestor.ASTNodeFinder.doVisit(ASTNodeFinder.java:74)
+	at org.codehaus.groovy.eclipse.codebrowsing.requestor.CodeSelectHelper.findNodeForRegion(CodeSelectHelper.java:155)
+	at org.codehaus.groovy.eclipse.codebrowsing.requestor.CodeSelectHelper.select(CodeSelectHelper.java:73)
+	at org.codehaus.jdt.groovy.model.GroovyCompilationUnit.codeSelect(GroovyCompilationUnit.java:506)
+	at org.codehaus.jdt.groovy.model.GroovyCompilationUnit.codeSelect(GroovyCompilationUnit.java:499)
+	at org.codehaus.jdt.groovy.model.GroovyCompilationUnit.codeSelect(GroovyCompilationUnit.java:493)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:124)
+	at org.codehaus.groovy.eclipse.editor.GroovyExtraInformationHover.getHoverInfo2(GroovyExtraInformationHover.java:98)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.groovy.core 4 0 2019-10-29 16:52:46.945
+!MESSAGE Groovy-Eclipse Type Inferencing: Error visiting types for BonitaScriptContext.groovy
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.LinkedList$ListItr.next(Unknown Source)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitJDT(TypeInferencingVisitorWithRequestor.java:361)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitCompilationUnit(TypeInferencingVisitorWithRequestor.java:251)
+	at org.codehaus.groovy.eclipse.editor.highlighting.GatherSemanticReferences.findSemanticHighlightingReferences(GatherSemanticReferences.java:45)
+	at org.codehaus.groovy.eclipse.editor.highlighting.GroovySemanticReconciler.reconciled(GroovySemanticReconciler.java:246)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1693)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:222)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:167)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:98)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:423)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-29 17:03:05.045
+!MESSAGE Stopping RESTLET server...
+
+!ENTRY org.bonitasoft.studio.common 4 0 2019-10-29 17:03:11.249
+!MESSAGE 
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:300)
+	at org.bonitasoft.studio.designer.core.UIDesignerServerManager.stop(UIDesignerServerManager.java:206)
+	at org.bonitasoft.studio.application.BonitaStudioWorkbenchAdvisor$PreShutdownStudio.run(BonitaStudioWorkbenchAdvisor.java:100)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2019-10-29 17:03:11.728
+!MESSAGE Terminate failed
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 17:03:12.809
+!MESSAGE Attempt to login as install:install
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 17:03:28.735
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-29 17:03:57.843
+!MESSAGE UI Designer has been stopped.
+!SESSION 2019-10-29 17:28:36.403 -----------------------------------------------
+eclipse.buildId=7.9.3.
+java.version=11.0.2
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-10-29 17:28:45.800
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.filebuffers 4 0 2019-10-29 17:29:00.231
+!MESSAGE The content type with id "org.eclipse.buildship.core.files.gradlebuildscript" specified in the extension point does not exist.
+
+!ENTRY org.eclipse.core.filebuffers 4 0 2019-10-29 17:29:00.232
+!MESSAGE The content type with id "org.eclipse.buildship.core.files.gradlebuildscript" specified in the extension point does not exist.
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-29 17:29:04.958
+!MESSAGE Starting UI Designer...
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-29 17:29:05.060
+!MESSAGE Starting RESTLET server on port 46617...
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-29 17:29:43.731
+!MESSAGE UI Designer has been started on http://localhost:42297/bonita
+
+!ENTRY org.bonitasoft.studio.common 1 0 2019-10-29 17:29:44.126
+!MESSAGE Configuring bonita client on host localhost:8080 with API_TYPE=HTTP
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 17:29:44.170
+!MESSAGE Starting tomcat...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 17:29:44.198
+!MESSAGE Starting studio watchdog on 6969
+
+!ENTRY org.bonitasoft.studio.common 1 0 2019-10-29 17:29:45.914
+!MESSAGE Configuring bonita client on host localhost:15961 with API_TYPE=HTTP
+
+!ENTRY org.bonitasoft.studio.application 1 0 2019-10-29 17:30:07.505
+!MESSAGE Startup duration : 00:01:23
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 17:30:50.116
+!MESSAGE Tomcat server started.
+
+!ENTRY org.bonitasoft.studio.businessobject 1 0 2019-10-29 17:30:52.698
+!MESSAGE Deploying Business Data Model...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 17:50:00.119
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 17:50:00.290
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 17:50:02.805
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 17:50:02.840
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 17:50:03.887
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 17:50:07.013
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 17:50:07.110
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 17:50:07.141
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 17:50:08.253
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 17:50:12.756
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 17:50:13.141
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 17:50:13.191
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 17:50:14.235
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 17:50:14.421
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 17:50:14.608
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 17:50:14.680
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-29 18:26:18.332
+!MESSAGE Stopping RESTLET server...
+
+!ENTRY org.bonitasoft.studio.common 4 0 2019-10-29 18:26:25.892
+!MESSAGE 
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:300)
+	at org.bonitasoft.studio.designer.core.UIDesignerServerManager.stop(UIDesignerServerManager.java:206)
+	at org.bonitasoft.studio.application.BonitaStudioWorkbenchAdvisor$PreShutdownStudio.run(BonitaStudioWorkbenchAdvisor.java:100)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2019-10-29 18:26:27.152
+!MESSAGE Terminate failed
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 18:26:28.191
+!MESSAGE Attempt to login as install:install
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 18:26:43.728
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 18:27:27.317
+!MESSAGE Stopping tomcat server...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 18:27:27.363
+!MESSAGE Shutting down watchdog...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 18:27:27.378
+!MESSAGE Watchdog shutdown ...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 18:27:27.403
+!MESSAGE The watchdog socket has been closed.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-29 18:27:44.587
+!MESSAGE Tomcat server stopped

@@ -1,4 +1,4 @@
-# List of external plug-in models previously loaded. Timestamp: 1572221885340
+# List of external plug-in models previously loaded. Timestamp: 1572380965604
 file:/home/wagner/wagnerdocri@gmail.com3/progsativos/BonitaStudioCommunity-7.9.3/plugins/com.fasterxml.jackson.core.jackson-annotations_2.4.4.jar
 file:/home/wagner/wagnerdocri@gmail.com3/progsativos/BonitaStudioCommunity-7.9.3/plugins/com.fasterxml.jackson.core.jackson-core_2.4.4.jar
 file:/home/wagner/wagnerdocri@gmail.com3/progsativos/BonitaStudioCommunity-7.9.3/plugins/com.fasterxml.jackson.core.jackson-databind_2.4.4.jar

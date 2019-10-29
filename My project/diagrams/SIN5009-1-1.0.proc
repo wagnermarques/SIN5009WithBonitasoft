@@ -148,8 +148,8 @@
             </expressions>
             <expressions xmi:type="expression:ListExpression" xmi:id="_QRM03vipEemHYYvO3qnDrA">
               <expressions xmi:type="expression:Expression" xmi:id="_QRM03_ipEemHYYvO3qnDrA" name="idInstanciaDoProcessoDoCliente" content="idInstanciaDoProcessoDoCliente" returnTypeFixed="true"/>
-              <expressions xmi:type="expression:Expression" xmi:id="_QRM04PipEemHYYvO3qnDrA" name="newScript()" content="return processInstanceId.toString()" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-                <referencedElements xmi:type="expression:Expression" xmi:id="_hMWxEPnrEemieNqJ1u-kjA" name="processInstanceId" content="processInstanceId" type="TYPE_ENGINE_CONSTANT" returnType="java.lang.Long"/>
+              <expressions xmi:type="expression:Expression" xmi:id="_QRM04PipEemHYYvO3qnDrA" name="newScript()" content="//String idDaInstanciaDoProcessoDoCliente = processInstanceId.toString()&#xA;//idDaInstanciaDoProcessoDoCliente&#xA;processInstanceId" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Long">
+                <referencedElements xmi:type="expression:Expression" xmi:id="_dpR5oPnwEemieNqJ1u-kjA" name="processInstanceId" content="processInstanceId" type="TYPE_ENGINE_CONSTANT" returnType="java.lang.Long"/>
               </expressions>
             </expressions>
             <expressions xmi:type="expression:ListExpression" xmi:id="_QRM04vipEemHYYvO3qnDrA">
@@ -280,7 +280,7 @@
         <defaultValue xmi:type="expression:Expression" xmi:id="_TydigfegEem3YOvaHAz1eg" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_GWHus_efEem3YOvaHAz1eg">
-        <targetForm xmi:type="expression:Expression" xmi:id="_yM1sAPnqEemieNqJ1u-kjA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_ntQgAPnwEemieNqJ1u-kjA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_GWHutfefEem3YOvaHAz1eg">
         <targetForm xmi:type="expression:Expression" xmi:id="_GWHutvefEem3YOvaHAz1eg" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -418,7 +418,7 @@
         <defaultValue xmi:type="expression:Expression" xmi:id="_x5YsYfipEemHYYvO3qnDrA" name="pessoalmente" content="pessoalmente"/>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_I6AAr_efEem3YOvaHAz1eg">
-        <targetForm xmi:type="expression:Expression" xmi:id="_x6Xb8PnqEemieNqJ1u-kjA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_nR29cPnwEemieNqJ1u-kjA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_I6AAsfefEem3YOvaHAz1eg">
         <targetForm xmi:type="expression:Expression" xmi:id="_I6AAsvefEem3YOvaHAz1eg" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
