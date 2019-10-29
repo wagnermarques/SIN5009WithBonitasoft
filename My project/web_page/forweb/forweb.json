@@ -1,0 +1,978 @@
+{
+  "designerVersion" : "1.9.57",
+  "id" : "forweb",
+  "name" : "forweb",
+  "lastUpdate" : 1572311222169,
+  "rows" : [ [ {
+    "type" : "container",
+    "dimension" : {
+      "xs" : 12
+    },
+    "propertyValues" : { },
+    "reference" : "76d99b9f-f080-4f5b-9772-88571674a882",
+    "hasValidationError" : false,
+    "id" : "pbContainer",
+    "rows" : [ [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : {
+        "labelHidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "level" : {
+          "type" : "constant",
+          "value" : "Level 1"
+        },
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "widgetId" : {
+          "type" : "constant",
+          "value" : "pbTitle"
+        },
+        "readOnly" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "label" : {
+          "type" : "interpolation"
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "{{ task.displayName }}"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "center"
+        },
+        "class" : {
+          "type" : "constant",
+          "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.TitleWidget"
+        },
+        "dimension" : {
+          "type" : "constant",
+          "value" : 12
+        }
+      },
+      "reference" : "ce0cddea-8a28-4e86-b7a0-24a79c40166b",
+      "hasValidationError" : false,
+      "id" : "pbTitle"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : {
+        "labelHidden" : {
+          "type" : "constant",
+          "value" : true
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "widgetId" : {
+          "type" : "constant",
+          "value" : "pbText"
+        },
+        "readOnly" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "label" : {
+          "type" : "interpolation"
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "{{ task.displayDescription }}"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        },
+        "class" : {
+          "type" : "constant",
+          "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.TextWidget"
+        },
+        "dimension" : {
+          "type" : "constant",
+          "value" : 12
+        }
+      },
+      "reference" : "efe5a3fb-f1e7-4113-a883-ec5f8eab971b",
+      "hasValidationError" : false,
+      "id" : "pbText"
+    } ] ]
+  } ], [ {
+    "type" : "formContainer",
+    "dimension" : {
+      "xs" : 12
+    },
+    "propertyValues" : { },
+    "reference" : "1440ed45-034c-43dd-bf92-3c44060f5172",
+    "hasValidationError" : false,
+    "id" : "pbFormContainer",
+    "container" : {
+      "type" : "container",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : { },
+      "reference" : "8352ed6a-29e8-437a-bd37-44fc98b17be4",
+      "hasValidationError" : false,
+      "id" : "pbContainer",
+      "rows" : [ [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 4"
+          },
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "widgetId" : {
+            "type" : "constant",
+            "value" : "pbTitle"
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation"
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Pacote De Viagem"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "class" : {
+            "type" : "constant",
+            "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.TitleWidget"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          }
+        },
+        "reference" : "7d656e69-e4b5-4313-86f9-9ecdb38858f0",
+        "hasValidationError" : false,
+        "id" : "pbTitle"
+      } ], [ {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "repeatedCollection" : {
+            "type" : "variable"
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "widgetId" : {
+            "type" : "constant"
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "class" : {
+            "type" : "constant",
+            "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.WidgetContainer"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          }
+        },
+        "reference" : "0b41e61f-0807-4c04-8d47-4a346364b39f",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [ [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12
+          },
+          "propertyValues" : {
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "level" : {
+              "type" : "constant",
+              "value" : "Level 4"
+            },
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "widgetId" : {
+              "type" : "constant",
+              "value" : "pbTitle"
+            },
+            "readOnly" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation"
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : "Itens De Viagem"
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            },
+            "class" : {
+              "type" : "constant",
+              "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.TitleWidget"
+            },
+            "dimension" : {
+              "type" : "constant",
+              "value" : 12
+            }
+          },
+          "reference" : "df72e69b-ceee-463b-bdc2-99f7d9cdd4d4",
+          "hasValidationError" : false,
+          "id" : "pbTitle"
+        } ], [ {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12
+          },
+          "propertyValues" : {
+            "repeatedCollection" : {
+              "type" : "variable",
+              "value" : "pacoteDeViagem.itensDeViagem"
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "widgetId" : {
+              "type" : "constant"
+            },
+            "readOnly" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation"
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            },
+            "class" : {
+              "type" : "constant",
+              "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.WidgetContainer"
+            },
+            "dimension" : {
+              "type" : "constant",
+              "value" : 12
+            }
+          },
+          "reference" : "e6f812de-6f4c-40de-92cc-44d0a3c97a70",
+          "hasValidationError" : false,
+          "id" : "pbContainer",
+          "rows" : [ [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12
+            },
+            "propertyValues" : {
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "widgetId" : {
+                "type" : "constant",
+                "value" : "pbInput"
+              },
+              "labelWidth" : {
+                "type" : "constant",
+                "value" : 1
+              },
+              "readOnly" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Nome"
+              },
+              "type" : {
+                "type" : "constant",
+                "value" : "text"
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "labelHidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "labelPosition" : {
+                "type" : "constant",
+                "value" : "top"
+              },
+              "placeholder" : {
+                "type" : "constant"
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "class" : {
+                "type" : "constant",
+                "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
+              },
+              "dimension" : {
+                "type" : "constant",
+                "value" : 12
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "$item.nome"
+              }
+            },
+            "reference" : "b33010bf-86ec-4c09-ba85-dec11c774ad9",
+            "hasValidationError" : false,
+            "id" : "pbInput"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12
+            },
+            "propertyValues" : {
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "widgetId" : {
+                "type" : "constant",
+                "value" : "pbInput"
+              },
+              "labelWidth" : {
+                "type" : "constant",
+                "value" : 1
+              },
+              "readOnly" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Vlr"
+              },
+              "type" : {
+                "type" : "constant",
+                "value" : "number"
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "labelHidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "labelPosition" : {
+                "type" : "constant",
+                "value" : "top"
+              },
+              "placeholder" : {
+                "type" : "constant"
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "class" : {
+                "type" : "constant",
+                "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
+              },
+              "dimension" : {
+                "type" : "constant",
+                "value" : 12
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "$item.vlr"
+              }
+            },
+            "reference" : "503f8f90-3c55-4381-8b62-348f5d692b06",
+            "hasValidationError" : false,
+            "id" : "pbInput"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12
+            },
+            "propertyValues" : {
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "dateFormat" : {
+                "type" : "constant",
+                "value" : "MM/dd/yyyy"
+              },
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "widgetId" : {
+                "type" : "constant",
+                "value" : "pbDatePicker"
+              },
+              "labelWidth" : {
+                "type" : "constant",
+                "value" : 1
+              },
+              "readOnly" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Inicio"
+              },
+              "type" : {
+                "type" : "constant"
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "todayLabel" : {
+                "type" : "constant",
+                "value" : "Today"
+              },
+              "labelHidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "showToday" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "labelPosition" : {
+                "type" : "constant",
+                "value" : "top"
+              },
+              "placeholder" : {
+                "type" : "constant",
+                "value" : "Enter a date (mm/dd/yyyy)"
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "class" : {
+                "type" : "constant",
+                "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.DatePickerWidget"
+              },
+              "dimension" : {
+                "type" : "constant",
+                "value" : 12
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "$item.inicio"
+              }
+            },
+            "reference" : "9b6b5dab-9427-408c-8b5c-256b8be9f001",
+            "hasValidationError" : false,
+            "id" : "pbDatePicker"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12
+            },
+            "propertyValues" : {
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "dateFormat" : {
+                "type" : "constant",
+                "value" : "MM/dd/yyyy"
+              },
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "widgetId" : {
+                "type" : "constant",
+                "value" : "pbDatePicker"
+              },
+              "labelWidth" : {
+                "type" : "constant",
+                "value" : 1
+              },
+              "readOnly" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Fim"
+              },
+              "type" : {
+                "type" : "constant"
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "todayLabel" : {
+                "type" : "constant",
+                "value" : "Today"
+              },
+              "labelHidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "showToday" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "labelPosition" : {
+                "type" : "constant",
+                "value" : "top"
+              },
+              "placeholder" : {
+                "type" : "constant",
+                "value" : "Enter a date (mm/dd/yyyy)"
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "class" : {
+                "type" : "constant",
+                "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.DatePickerWidget"
+              },
+              "dimension" : {
+                "type" : "constant",
+                "value" : 12
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "$item.fim"
+              }
+            },
+            "reference" : "dcb86202-88d9-4920-814f-c80aa21594cb",
+            "hasValidationError" : false,
+            "id" : "pbDatePicker"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12
+            },
+            "propertyValues" : {
+              "removeItem" : {
+                "type" : "variable",
+                "value" : "$item"
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "widgetId" : {
+                "type" : "constant",
+                "value" : "pbButton"
+              },
+              "buttonStyle" : {
+                "type" : "constant",
+                "value" : "danger"
+              },
+              "readOnly" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "<span class=\"glyphicon glyphicon-remove\"></span>"
+              },
+              "dataToSend" : {
+                "type" : "expression"
+              },
+              "labelHidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "collectionPosition" : {
+                "type" : "constant",
+                "value" : "Item"
+              },
+              "targetUrlOnSuccess" : {
+                "type" : "interpolation"
+              },
+              "action" : {
+                "type" : "constant",
+                "value" : "Remove from collection"
+              },
+              "collectionToModify" : {
+                "type" : "variable",
+                "value" : "$collection"
+              },
+              "valueToAdd" : {
+                "type" : "expression"
+              },
+              "disabled" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "right"
+              },
+              "class" : {
+                "type" : "constant",
+                "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.ButtonWidget"
+              },
+              "dimension" : {
+                "type" : "constant",
+                "value" : 12
+              }
+            },
+            "reference" : "b5f46166-b207-47b1-a550-270ba58f46d5",
+            "hasValidationError" : false,
+            "id" : "pbButton"
+          } ] ]
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12
+          },
+          "propertyValues" : {
+            "removeItem" : {
+              "type" : "variable"
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "widgetId" : {
+              "type" : "constant",
+              "value" : "pbButton"
+            },
+            "buttonStyle" : {
+              "type" : "constant",
+              "value" : "primary"
+            },
+            "readOnly" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "<span class=\"glyphicon glyphicon-plus\"></span> Add ProdServDeViagem"
+            },
+            "dataToSend" : {
+              "type" : "expression"
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "collectionPosition" : {
+              "type" : "constant"
+            },
+            "targetUrlOnSuccess" : {
+              "type" : "interpolation"
+            },
+            "action" : {
+              "type" : "constant",
+              "value" : "Add to collection"
+            },
+            "collectionToModify" : {
+              "type" : "variable",
+              "value" : "pacoteDeViagem.itensDeViagem"
+            },
+            "valueToAdd" : {
+              "type" : "expression",
+              "value" : "{\n  \"persistenceId_string\" : \"\",\n  \"nome\" : \"\",\n  \"vlr\" : 0,\n  \"inicio\" : null,\n  \"fim\" : null\n}"
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            },
+            "class" : {
+              "type" : "constant",
+              "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.ButtonWidget"
+            },
+            "dimension" : {
+              "type" : "constant",
+              "value" : 12
+            }
+          },
+          "reference" : "4fe5da9c-cf38-46ad-9dee-a81e6b788189",
+          "hasValidationError" : false,
+          "id" : "pbButton"
+        } ] ]
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "removeItem" : {
+            "type" : "variable"
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "widgetId" : {
+            "type" : "constant",
+            "value" : "pbButton"
+          },
+          "buttonStyle" : {
+            "type" : "constant",
+            "value" : "primary"
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Submit"
+          },
+          "dataToSend" : {
+            "type" : "expression",
+            "value" : "formOutput"
+          },
+          "dataFromError" : {
+            "type" : "variable",
+            "value" : "formOutput._submitError"
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "collectionPosition" : {
+            "type" : "constant"
+          },
+          "targetUrlOnSuccess" : {
+            "type" : "interpolation",
+            "value" : "/bonita"
+          },
+          "action" : {
+            "type" : "constant",
+            "value" : "Submit task"
+          },
+          "collectionToModify" : {
+            "type" : "variable"
+          },
+          "valueToAdd" : {
+            "type" : "expression"
+          },
+          "disabled" : {
+            "type" : "expression",
+            "value" : "$form.$invalid"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "center"
+          },
+          "class" : {
+            "type" : "constant",
+            "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.ButtonWidget"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          }
+        },
+        "reference" : "bb7e123b-4035-46e7-b6c3-813a9dec40ca",
+        "hasValidationError" : false,
+        "id" : "pbButton"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "hidden" : {
+            "type" : "expression",
+            "value" : "!formOutput._submitError.message"
+          },
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : "alert alert-danger col-lg-6 col-lg-offset-3"
+          },
+          "widgetId" : {
+            "type" : "constant",
+            "value" : "pbText"
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation"
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "<strong>Debug message</strong>\n<br/>\n{{formOutput._submitError.message}}\n{{submit_errors_list}}"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "class" : {
+            "type" : "constant",
+            "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.TextWidget"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          }
+        },
+        "reference" : "12b03b47-51c9-42e5-8301-f2b0a86183a8",
+        "hasValidationError" : false,
+        "id" : "pbText"
+      } ] ]
+    }
+  } ] ],
+  "assets" : [ {
+    "id" : "d7a1e5d1-3a2e-44c9-ade6-9fc35cca82f0",
+    "name" : "style.css",
+    "type" : "css",
+    "order" : 0,
+    "external" : false
+  } ],
+  "inactiveAssets" : [ ],
+  "data" : {
+    "task" : {
+      "type" : "url",
+      "value" : "../API/bpm/userTask/{{taskId}}",
+      "exposed" : false
+    },
+    "submit_errors_list" : {
+      "type" : "expression",
+      "value" : "if($data.formOutput && $data.formOutput._submitError && $data.formOutput._submitError.explanations){\n\tconst liElements = $data.formOutput._submitError.explanations\n\t\t.filter(cause => cause !== null)\n\t\t.map(cause => \"<li>\" + cause + \"</li>\")\n\t\t.join('');\n\tif(liElements){\n\t\treturn \"<ul>\" + liElements + \"</ul>\";\n\t}\n}",
+      "exposed" : false
+    },
+    "formOutput" : {
+      "type" : "expression",
+      "value" : "if( $data.pacoteDeViagem ){\n\treturn {\n\t\t//map pacoteDeViagem variable to expected task contract input\n\t\tpacoteDeViagemInput: {\n\t\t\titensDeViagem: $data.pacoteDeViagem.itensDeViagem.map( it => ({\n\t\t\t\tpersistenceId_string: it.persistenceId_string !== undefined ? it.persistenceId_string : null,\n\t\t\t\tnome: it.nome !== undefined ? it.nome : null,\n\t\t\t\tvlr: it.vlr !== undefined ? it.vlr : null,\n\t\t\t\tinicio: it.inicio !== undefined ? it.inicio : null,\n\t\t\t\tfim: it.fim !== undefined ? it.fim : null\n\t\t\t}))\n\t\t}\n\t}\n}",
+      "exposed" : false
+    },
+    "context" : {
+      "type" : "url",
+      "value" : "../API/bpm/userTask/{{taskId}}/context",
+      "exposed" : false
+    },
+    "pacoteDeViagem" : {
+      "type" : "url",
+      "value" : "../{{context.pacoteDeViagem_ref.link}}",
+      "exposed" : false
+    },
+    "taskId" : {
+      "type" : "urlparameter",
+      "value" : "id",
+      "exposed" : false
+    }
+  },
+  "hasValidationError" : false,
+  "uuid" : "260661f1-0765-4355-b630-d0ae0c0ddac0",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}
