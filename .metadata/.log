@@ -7247,3 +7247,2762 @@ org.eclipse.debug.core.DebugException: Terminate failed
 
 !ENTRY org.bonitasoft.studio.designer 1 0 2019-10-26 03:02:52.186
 !MESSAGE UI Designer has been stopped.
+!SESSION 2019-10-27 07:40:35.110 -----------------------------------------------
+eclipse.buildId=7.9.3.
+java.version=11.0.2
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.774
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.PreferenceManager.migrateInstanceScopePreferences(PreferenceManager.java:288)
+	at org.eclipse.core.internal.net.PreferenceManager.migrate(PreferenceManager.java:256)
+	at org.eclipse.core.internal.net.ProxyManager.checkMigrated(ProxyManager.java:392)
+	at org.eclipse.core.internal.net.ProxyManager.initialize(ProxyManager.java:262)
+	at org.eclipse.core.internal.net.Activator.start(Activator.java:178)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution.getProxyService(UpdateRSSContribution.java:146)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:99)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.850
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.PreferenceManager.migrateInstanceScopePreferences(PreferenceManager.java:291)
+	at org.eclipse.core.internal.net.PreferenceManager.migrate(PreferenceManager.java:256)
+	at org.eclipse.core.internal.net.ProxyManager.checkMigrated(ProxyManager.java:392)
+	at org.eclipse.core.internal.net.ProxyManager.initialize(ProxyManager.java:262)
+	at org.eclipse.core.internal.net.Activator.start(Activator.java:178)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution.getProxyService(UpdateRSSContribution.java:146)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:99)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.852
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.PreferenceManager.migrateInstanceScopePreferences(PreferenceManager.java:288)
+	at org.eclipse.core.internal.net.PreferenceManager.migrate(PreferenceManager.java:256)
+	at org.eclipse.core.internal.net.ProxyManager.checkMigrated(ProxyManager.java:392)
+	at org.eclipse.core.internal.net.ProxyManager.initialize(ProxyManager.java:262)
+	at org.eclipse.core.internal.net.Activator.start(Activator.java:178)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution.getProxyService(UpdateRSSContribution.java:146)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:99)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.854
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.PreferenceManager.migrateInstanceScopePreferences(PreferenceManager.java:291)
+	at org.eclipse.core.internal.net.PreferenceManager.migrate(PreferenceManager.java:256)
+	at org.eclipse.core.internal.net.ProxyManager.checkMigrated(ProxyManager.java:392)
+	at org.eclipse.core.internal.net.ProxyManager.initialize(ProxyManager.java:262)
+	at org.eclipse.core.internal.net.Activator.start(Activator.java:178)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution.getProxyService(UpdateRSSContribution.java:146)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:99)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.856
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.PreferenceManager.migrateInstanceScopePreferences(PreferenceManager.java:288)
+	at org.eclipse.core.internal.net.PreferenceManager.migrate(PreferenceManager.java:256)
+	at org.eclipse.core.internal.net.ProxyManager.checkMigrated(ProxyManager.java:392)
+	at org.eclipse.core.internal.net.ProxyManager.initialize(ProxyManager.java:262)
+	at org.eclipse.core.internal.net.Activator.start(Activator.java:178)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution.getProxyService(UpdateRSSContribution.java:146)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:99)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.857
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.PreferenceManager.migrateInstanceScopePreferences(PreferenceManager.java:291)
+	at org.eclipse.core.internal.net.PreferenceManager.migrate(PreferenceManager.java:256)
+	at org.eclipse.core.internal.net.ProxyManager.checkMigrated(ProxyManager.java:392)
+	at org.eclipse.core.internal.net.ProxyManager.initialize(ProxyManager.java:262)
+	at org.eclipse.core.internal.net.Activator.start(Activator.java:178)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution.getProxyService(UpdateRSSContribution.java:146)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:99)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.859
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyType.initialize(ProxyType.java:520)
+	at org.eclipse.core.internal.net.ProxyManager.initialize(ProxyManager.java:267)
+	at org.eclipse.core.internal.net.Activator.start(Activator.java:178)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution.getProxyService(UpdateRSSContribution.java:146)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:99)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.862
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyType.initialize(ProxyType.java:520)
+	at org.eclipse.core.internal.net.ProxyManager.initialize(ProxyManager.java:267)
+	at org.eclipse.core.internal.net.Activator.start(Activator.java:178)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution.getProxyService(UpdateRSSContribution.java:146)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:99)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.864
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyType.initialize(ProxyType.java:520)
+	at org.eclipse.core.internal.net.ProxyManager.initialize(ProxyManager.java:267)
+	at org.eclipse.core.internal.net.Activator.start(Activator.java:178)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution.getProxyService(UpdateRSSContribution.java:146)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:99)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.922
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.922
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.923
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.924
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.924
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.925
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.925
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.926
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.926
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.927
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.927
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.928
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.930
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.931
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.931
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.932
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.932
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.net 4 0 2019-10-27 07:41:35.932
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:267)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:123)
+	at org.eclipse.core.internal.net.ProxyType.loadProxyAuth(ProxyType.java:540)
+	at org.eclipse.core.internal.net.ProxyType.createProxyData(ProxyType.java:141)
+	at org.eclipse.core.internal.net.ProxyType.getProxyData(ProxyType.java:130)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyData(ProxyManager.java:165)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:304)
+	at org.eclipse.core.internal.net.ProxyManager.getProxyDataForHost(ProxyManager.java:352)
+	at org.eclipse.core.internal.net.ProxyManager.select(ProxyManager.java:434)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.configureProxySettings(UpdateRSSContribution.java:100)
+	at org.bonitasoft.studio.application.contribution.UpdateRSSContribution$UpdateRSSThread.run(UpdateRSSContribution.java:85)
+
+!ENTRY org.eclipse.core.filebuffers 4 0 2019-10-27 07:41:48.437
+!MESSAGE The content type with id "org.eclipse.buildship.core.files.gradlebuildscript" specified in the extension point does not exist.
+
+!ENTRY org.eclipse.core.filebuffers 4 0 2019-10-27 07:41:48.438
+!MESSAGE The content type with id "org.eclipse.buildship.core.files.gradlebuildscript" specified in the extension point does not exist.
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-27 07:41:56.723
+!MESSAGE Starting UI Designer...
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-27 07:41:56.854
+!MESSAGE Starting RESTLET server on port 46121...
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-27 07:42:31.834
+!MESSAGE UI Designer has been started on http://localhost:42297/bonita
+
+!ENTRY org.bonitasoft.studio.common 1 0 2019-10-27 07:42:32.262
+!MESSAGE Configuring bonita client on host localhost:8080 with API_TYPE=HTTP
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 07:42:32.340
+!MESSAGE Starting tomcat...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 07:42:32.344
+!MESSAGE Starting studio watchdog on 6969
+
+!ENTRY org.bonitasoft.studio.common 1 0 2019-10-27 07:42:34.691
+!MESSAGE Configuring bonita client on host localhost:15961 with API_TYPE=HTTP
+
+!ENTRY org.bonitasoft.studio.application 1 0 2019-10-27 07:43:12.910
+!MESSAGE Startup duration : 00:01:45
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 07:44:06.455
+!MESSAGE Tomcat server started.
+
+!ENTRY org.bonitasoft.studio.businessobject 1 0 2019-10-27 07:44:08.546
+!MESSAGE Deploying Business Data Model...
+
+!ENTRY org.eclipse.jdt.groovy.core 4 0 2019-10-27 07:59:53.686
+!MESSAGE Groovy-Eclipse Type Inferencing: Error finding method run in class BonitaScriptContext
+!STACK 1
+Java Model Exception: Java Model Status [BonitaScriptContext.groovy [in <default> [in src-providedGroovy [in My project]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:113)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:602)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:325)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:311)
+	at org.eclipse.jdt.internal.core.Member.getFlags(Member.java:172)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.findMethodNode(TypeInferencingVisitorWithRequestor.java:1936)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitJDT(TypeInferencingVisitorWithRequestor.java:444)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitJDT(TypeInferencingVisitorWithRequestor.java:345)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitCompilationUnit(TypeInferencingVisitorWithRequestor.java:251)
+	at org.codehaus.groovy.eclipse.editor.highlighting.GatherSemanticReferences.findSemanticHighlightingReferences(GatherSemanticReferences.java:45)
+	at org.codehaus.groovy.eclipse.editor.highlighting.GroovySemanticReconciler.reconciled(GroovySemanticReconciler.java:246)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1693)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:222)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:167)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:98)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:423)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2019-10-27 07:59:53.721
+!MESSAGE BonitaScriptContext.groovy [in <default> [in src-providedGroovy [in My project]]] does not exist
+
+!ENTRY org.eclipse.jdt.groovy.core 4 0 2019-10-27 07:59:53.828
+!MESSAGE Groovy-Eclipse Type Inferencing: Error visiting children of BonitaScriptContext
+!STACK 1
+Java Model Exception: Java Model Status [BonitaScriptContext.groovy [in <default> [in src-providedGroovy [in My project]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:113)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:602)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:325)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:311)
+	at org.eclipse.jdt.internal.core.SourceType.isEnum(SourceType.java:646)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitJDT(TypeInferencingVisitorWithRequestor.java:358)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitCompilationUnit(TypeInferencingVisitorWithRequestor.java:251)
+	at org.codehaus.groovy.eclipse.editor.highlighting.GatherSemanticReferences.findSemanticHighlightingReferences(GatherSemanticReferences.java:45)
+	at org.codehaus.groovy.eclipse.editor.highlighting.GroovySemanticReconciler.reconciled(GroovySemanticReconciler.java:246)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1693)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:222)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:167)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:98)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:423)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2019-10-27 07:59:53.828
+!MESSAGE BonitaScriptContext.groovy [in <default> [in src-providedGroovy [in My project]]] does not exist
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:15:17.501
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:15:20.130
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:15:22.565
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:15:22.581
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:15:23.076
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:15:25.006
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:15:25.081
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:15:25.102
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:15:25.680
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:15:25.967
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:15:26.110
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:15:26.132
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:15:26.514
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:15:26.536
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:15:26.620
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:15:26.636
+!MESSAGE Login successful.
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-10-27 08:15:35.653
+!MESSAGE An internal error occurred during: "Running...".
+!STACK 0
+java.lang.NullPointerException: Job of type org.bonitasoft.studio.engine.command.RunProcessCommand$1 returned no status.
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:83)
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:21:51.154
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:21:51.295
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:21:54.543
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:21:54.556
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:21:54.869
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:21:55.289
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:21:55.331
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:21:55.342
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:21:55.728
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:21:55.970
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:21:56.111
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:21:56.142
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:21:56.446
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:21:56.541
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:21:56.624
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:21:56.637
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:23:33.976
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:23:34.042
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:23:35.334
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:23:35.343
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:23:36.094
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:23:36.502
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:23:36.546
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:23:36.557
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:23:36.841
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:23:37.061
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:23:37.151
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:23:37.162
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:23:37.367
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:23:37.382
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:23:37.480
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:23:37.492
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:32:10.832
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:32:11.657
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:32:18.969
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:32:19.023
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:32:19.780
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:32:20.220
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:32:20.253
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:32:20.260
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:32:24.703
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:32:24.974
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:32:25.046
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:32:25.055
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:32:25.337
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:32:25.354
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:32:25.428
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 08:32:25.437
+!MESSAGE Login successful.
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-10-27 08:32:34.597
+!MESSAGE An internal error occurred during: "Running...".
+!STACK 0
+java.lang.NullPointerException: Job of type org.bonitasoft.studio.engine.command.RunProcessCommand$1 returned no status.
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:83)
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:18.062
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:18.127
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:18.129
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:25.046
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:25.047
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:25.048
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:28.360
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:28.361
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:28.362
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:28.998
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:28.999
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:29.000
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:29.232
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:29.232
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:29.233
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:29.434
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:29.436
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:29.436
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:29.649
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:29.650
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:29.652
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:34.007
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:34.007
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:34.008
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:34.826
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:34.827
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:34.827
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:40.047
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:40.048
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2019-10-27 09:56:40.049
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:15:57.320
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:15:58.870
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:16:13.369
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:16:13.422
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:16:16.589
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:16:20.671
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:16:20.757
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:16:20.770
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:16:21.865
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:16:23.097
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:16:23.243
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:16:23.251
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:16:24.514
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:16:24.549
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:16:25.223
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:16:25.234
+!MESSAGE Login successful.
+
+!ENTRY org.eclipse.ui 4 0 2019-10-27 10:25:00.707
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.base/java.lang.String.substring(Unknown Source)
+	at org.eclipse.jface.internal.databinding.swt.SWTVetoableValueDecorator.lambda$0(SWTVetoableValueDecorator.java:38)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5663)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1386)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1412)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1395)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1184)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7358)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:8254)
+	at org.eclipse.swt.custom.StyledText.doDelete(StyledText.java:2577)
+	at org.eclipse.swt.custom.StyledText.invokeAction(StyledText.java:7182)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1424)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doOperation(JavaSourceViewer.java:199)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:206)
+	at org.eclipse.ui.texteditor.TextOperationAction.lambda$0(TextOperationAction.java:130)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ui.texteditor.TextOperationAction.run(TextOperationAction.java:130)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:96)
+	at jdk.internal.reflect.GeneratedMethodAccessor78.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:320)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:254)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:164)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:497)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:490)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:584)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:653)
+	at org.eclipse.e4.ui.bindings.keys.OutOfOrderListener.handleEvent(OutOfOrderListener.java:75)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5663)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1386)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1412)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1395)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1424)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:803)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3600)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:842)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1962)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6298)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5880)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:3969)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1385)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1581)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4470)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.bonitasoft.studio.expression.editor.viewer.ExpressionViewer.openEditDialog(ExpressionViewer.java:526)
+	at org.bonitasoft.studio.expression.editor.viewer.ExpressionViewer.editControlSelected(ExpressionViewer.java:350)
+	at org.bonitasoft.studio.expression.editor.viewer.ExpressionViewer$3.handleEvent(ExpressionViewer.java:326)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5663)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1386)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4931)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4472)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.bonitasoft.studio.connectors.ui.property.section.ConnectorSection$3.widgetSelected(ConnectorSection.java:264)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5663)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1386)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4931)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4472)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.bonitasoft.studio.application.BonitaStudioApplication.createAndRunWorkbench(BonitaStudioApplication.java:137)
+	at org.bonitasoft.studio.application.BonitaStudioApplication.start(BonitaStudioApplication.java:99)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:25:47.432
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:25:47.563
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:25:54.334
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:25:54.349
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:25:55.465
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:25:55.902
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:25:55.968
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:25:55.993
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:25:56.706
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:25:57.044
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:25:57.262
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:25:57.277
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:25:57.832
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:25:57.928
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:25:58.103
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:25:58.113
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:38:51.057
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:38:51.172
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:38:53.397
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:38:53.406
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:38:54.014
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:38:54.480
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:38:54.672
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:38:54.687
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:38:55.496
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:38:55.944
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:38:56.023
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:38:56.033
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:38:56.681
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:38:56.739
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:38:56.847
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:38:56.860
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:40:44.858
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:40:44.905
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:40:46.603
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:40:46.610
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:40:47.631
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:40:47.946
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:40:47.977
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:40:47.986
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:40:48.202
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:40:48.893
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:40:48.987
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:40:48.995
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:40:49.386
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:40:49.457
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:40:49.576
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 10:40:49.583
+!MESSAGE Login successful.
+
+!ENTRY org.eclipse.core.databinding 4 0 2019-10-27 11:12:05.754
+!MESSAGE An error occurred while setting the value.
+!STACK 0
+java.lang.NullPointerException
+	at org.bonitasoft.studio.model.expression.impl.ExpressionImpl.eSet(ExpressionImpl.java:623)
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eSet(BasicEObjectImpl.java:1071)
+	at org.eclipse.emf.databinding.EObjectObservableValue.doSetValue(EObjectObservableValue.java:135)
+	at org.eclipse.core.databinding.observable.value.AbstractObservableValue.setValue(AbstractObservableValue.java:69)
+	at org.eclipse.core.databinding.UpdateValueStrategy.doSet(UpdateValueStrategy.java:476)
+	at org.eclipse.core.databinding.ValueBinding.lambda$1(ValueBinding.java:200)
+	at org.eclipse.core.databinding.observable.Realm$1.run(Realm.java:152)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.databinding.observable.Realm.safeRun(Realm.java:156)
+	at org.eclipse.core.databinding.observable.Realm.exec(Realm.java:174)
+	at org.eclipse.core.databinding.ValueBinding.lambda$0(ValueBinding.java:193)
+	at org.eclipse.core.databinding.observable.Realm$1.run(Realm.java:152)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.databinding.observable.Realm.safeRun(Realm.java:156)
+	at org.eclipse.core.databinding.observable.Realm.exec(Realm.java:174)
+	at org.eclipse.core.databinding.ValueBinding.doUpdate(ValueBinding.java:162)
+	at org.eclipse.core.databinding.ValueBinding.updateTargetToModel(ValueBinding.java:122)
+	at org.eclipse.core.databinding.ValueBinding.postInit(ValueBinding.java:103)
+	at org.eclipse.core.databinding.Binding.init(Binding.java:80)
+	at org.eclipse.core.databinding.DataBindingContext.bindValue(DataBindingContext.java:165)
+	at org.bonitasoft.studio.businessobject.ui.expression.QueryExpressionEditor.bindExpression(QueryExpressionEditor.java:361)
+	at org.bonitasoft.studio.expression.editor.viewer.EditExpressionDialog.showContent(EditExpressionDialog.java:387)
+	at org.bonitasoft.studio.expression.editor.viewer.EditExpressionDialog.lambda$2(EditExpressionDialog.java:326)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.bonitasoft.studio.expression.editor.viewer.EditExpressionDialog.expressionTypeChanged(EditExpressionDialog.java:325)
+	at org.bonitasoft.studio.expression.editor.viewer.EditExpressionDialog.lambda$1(EditExpressionDialog.java:190)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:158)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:176)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:155)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2182)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1225)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1254)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:243)
+	at org.eclipse.jface.util.OpenStrategy.access$4(OpenStrategy.java:238)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:403)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5663)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1386)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4931)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4472)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.bonitasoft.studio.expression.editor.viewer.ExpressionViewer.openEditDialog(ExpressionViewer.java:526)
+	at org.bonitasoft.studio.expression.editor.viewer.ExpressionViewer.editControlSelected(ExpressionViewer.java:350)
+	at org.bonitasoft.studio.expression.editor.viewer.ExpressionViewer$3.handleEvent(ExpressionViewer.java:326)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5663)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1386)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4931)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4472)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.bonitasoft.studio.application.BonitaStudioApplication.createAndRunWorkbench(BonitaStudioApplication.java:137)
+	at org.bonitasoft.studio.application.BonitaStudioApplication.start(BonitaStudioApplication.java:99)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:25:09.002
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:25:11.214
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:25:24.879
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:25:24.947
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:25:27.269
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:25:28.545
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:25:28.578
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:25:28.613
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:25:37.537
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:25:37.845
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:25:37.902
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:25:37.909
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:25:38.419
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:25:38.680
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:25:38.905
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:25:38.914
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:33:35.844
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:33:35.989
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:33:44.982
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:33:44.987
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:33:46.009
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:33:46.506
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:33:46.542
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:33:46.550
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:33:47.104
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:33:47.453
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:33:47.516
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:33:47.522
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:33:48.007
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:33:48.014
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:33:48.072
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:33:48.098
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.groovy.ui 4 2 2019-10-27 14:37:58.700
+!MESSAGE Problems occurred when invoking code from plug-in: "org.bonitasoft.studio.groovy.ui".
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap$HashIterator.nextNode(Unknown Source)
+	at java.base/java.util.HashMap$KeyIterator.next(Unknown Source)
+	at org.bonitasoft.studio.groovy.ui.viewer.UpdateUnknownReferencesListener.done(UpdateUnknownReferencesListener.java:62)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:80)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:118)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:684)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:85)
+
+!ENTRY org.bonitasoft.studio.groovy.ui 4 2 2019-10-27 14:37:58.898
+!MESSAGE Problems occurred when invoking code from plug-in: "org.bonitasoft.studio.groovy.ui".
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap$HashIterator.nextNode(Unknown Source)
+	at java.base/java.util.HashMap$KeyIterator.next(Unknown Source)
+	at org.bonitasoft.studio.groovy.ui.viewer.UpdateUnknownReferencesListener.done(UpdateUnknownReferencesListener.java:62)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:80)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:118)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:684)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:85)
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:39:02.728
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:39:02.761
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:39:07.063
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:39:07.069
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:39:08.070
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:39:08.628
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:39:08.666
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:39:08.672
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:39:09.187
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:39:10.458
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:39:10.571
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:39:10.578
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:39:11.114
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:39:11.120
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:39:11.246
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:39:11.252
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:45:10.038
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:45:10.184
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:45:13.964
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:45:14.019
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:45:14.585
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:45:14.955
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:45:14.993
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:45:15.034
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:45:15.682
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:45:16.129
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:45:16.217
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:45:16.222
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:45:16.524
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:45:16.530
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:45:16.583
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:45:16.589
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:50:25.052
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:50:25.058
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:50:25.516
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:50:25.522
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:50:26.103
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:50:26.176
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:50:26.195
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:50:26.201
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:50:26.508
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:50:26.964
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:50:27.008
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:50:27.014
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:50:27.316
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:50:27.321
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:50:27.385
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:50:27.390
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:51:46.092
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:51:46.182
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:51:47.473
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:51:47.557
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:51:48.255
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:51:48.690
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:51:48.733
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:51:48.743
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:51:49.085
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:51:49.333
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:51:49.401
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:51:49.407
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:51:50.239
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:51:50.246
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:51:50.307
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:51:50.313
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:52:50.882
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:52:50.951
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:52:51.264
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:52:51.270
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:52:51.495
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:52:51.556
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:52:51.580
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:52:51.586
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:52:51.876
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:52:52.526
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:52:52.594
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:52:52.601
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:52:53.383
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:52:53.390
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:52:53.476
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 14:52:53.481
+!MESSAGE Login successful.
+!SESSION 2019-10-27 21:17:21.225 -----------------------------------------------
+eclipse.buildId=7.9.3.
+java.version=11.0.2
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/wagner/wagnerdocri@gmail.com3/envs/env-dev/sources/SIN5009WithBonitasoft
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-10-27 21:17:48.035
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.filebuffers 4 0 2019-10-27 21:17:58.192
+!MESSAGE The content type with id "org.eclipse.buildship.core.files.gradlebuildscript" specified in the extension point does not exist.
+
+!ENTRY org.eclipse.core.filebuffers 4 0 2019-10-27 21:17:58.194
+!MESSAGE The content type with id "org.eclipse.buildship.core.files.gradlebuildscript" specified in the extension point does not exist.
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-27 21:18:01.859
+!MESSAGE Starting UI Designer...
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-27 21:18:01.914
+!MESSAGE Starting RESTLET server on port 43049...
+
+!ENTRY org.bonitasoft.studio.designer 1 0 2019-10-27 21:18:32.707
+!MESSAGE UI Designer has been started on http://localhost:42297/bonita
+
+!ENTRY org.bonitasoft.studio.common 1 0 2019-10-27 21:18:33.016
+!MESSAGE Configuring bonita client on host localhost:8080 with API_TYPE=HTTP
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 21:18:33.051
+!MESSAGE Starting tomcat...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 21:18:33.058
+!MESSAGE Starting studio watchdog on 6969
+
+!ENTRY org.bonitasoft.studio.common 1 0 2019-10-27 21:18:34.604
+!MESSAGE Configuring bonita client on host localhost:15961 with API_TYPE=HTTP
+
+!ENTRY org.bonitasoft.studio.application 1 0 2019-10-27 21:19:17.576
+!MESSAGE Startup duration : 00:01:30
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-27 21:20:40.956
+!MESSAGE Tomcat server started.
+
+!ENTRY org.bonitasoft.studio.businessobject 1 0 2019-10-27 21:20:46.862
+!MESSAGE Deploying Business Data Model...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:26:38.564
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:26:55.577
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:27:40.992
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:27:41.051
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:27:49.510
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:28:00.506
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:28:00.663
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:28:00.756
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:28:06.502
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:28:47.570
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:28:47.940
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:28:47.998
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:28:49.490
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:28:49.507
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:28:51.668
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:28:51.681
+!MESSAGE Login successful.
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-10-28 09:28:57.949
+!MESSAGE An internal error occurred during: "Running...".
+!STACK 0
+java.lang.NullPointerException: Job of type org.bonitasoft.studio.engine.command.RunProcessCommand$1 returned no status.
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:83)
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:31:11.220
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:31:11.394
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:31:17.230
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:31:17.243
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:31:18.471
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:31:19.238
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:31:19.290
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:31:19.303
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:31:19.726
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:31:20.130
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:31:20.337
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:31:20.352
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:31:21.223
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:31:21.232
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:31:21.374
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 09:31:21.428
+!MESSAGE Login successful.
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-10-28 09:31:49.345
+!MESSAGE An internal error occurred during: "Running...".
+!STACK 0
+java.lang.NullPointerException: Job of type org.bonitasoft.studio.engine.command.RunProcessCommand$1 returned no status.
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:83)
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:13:24.048
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:13:24.488
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:13:28.075
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:13:28.082
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:13:30.195
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:13:31.623
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:13:31.684
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:13:31.693
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:13:33.609
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:13:34.545
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:13:34.668
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:13:34.732
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:13:37.483
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:13:37.492
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:13:37.616
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:13:37.624
+!MESSAGE Login successful.
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-10-28 18:13:44.654
+!MESSAGE An internal error occurred during: "Running...".
+!STACK 0
+java.lang.NullPointerException: Job of type org.bonitasoft.studio.engine.command.RunProcessCommand$1 returned no status.
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:83)
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:36:36.271
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:36:36.318
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:36:37.801
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:36:38.095
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:36:38.824
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:36:39.301
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:36:39.511
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:36:39.521
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:36:40.456
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:36:46.468
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:36:50.571
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:36:50.589
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:36:52.291
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:36:52.315
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:36:55.247
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 18:36:55.264
+!MESSAGE Login successful.
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-10-28 18:37:02.038
+!MESSAGE An internal error occurred during: "Running...".
+!STACK 0
+java.lang.NullPointerException: Job of type org.bonitasoft.studio.engine.command.RunProcessCommand$1 returned no status.
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:83)
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 20:34:32.385
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 20:34:34.647
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 20:35:05.235
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 20:35:05.247
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 20:35:07.169
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 20:35:08.479
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 20:35:08.528
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 20:35:08.577
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 20:35:13.377
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 20:35:15.921
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 20:35:15.997
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 20:35:16.035
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 20:35:19.238
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 20:35:19.276
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 20:35:19.714
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 20:35:19.720
+!MESSAGE Login successful.
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-10-28 20:35:22.182
+!MESSAGE An internal error occurred during: "Running...".
+!STACK 0
+java.lang.NullPointerException: Job of type org.bonitasoft.studio.engine.command.RunProcessCommand$1 returned no status.
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:83)
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:53:44.355
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:53:44.462
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:53:45.631
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:53:45.640
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:53:46.040
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:53:46.084
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:53:46.108
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:53:46.149
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:53:46.654
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:53:47.977
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:53:48.130
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:53:48.138
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:53:48.537
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:53:48.546
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:53:48.664
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:53:48.744
+!MESSAGE Login successful.
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-10-28 21:55:17.455
+!MESSAGE An internal error occurred during: "Running...".
+!STACK 0
+java.lang.NullPointerException: Job of type org.bonitasoft.studio.engine.command.RunProcessCommand$1 returned no status.
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:83)
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:55:36.520
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:55:36.544
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:55:37.465
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:55:37.482
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:55:37.860
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:55:37.923
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:55:37.944
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:55:37.951
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:55:38.141
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:55:38.380
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:55:38.517
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:55:38.524
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:55:39.119
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:55:39.150
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:55:39.258
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:55:39.268
+!MESSAGE Login successful.
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-10-28 21:55:41.001
+!MESSAGE An internal error occurred during: "Running...".
+!STACK 0
+java.lang.NullPointerException: Job of type org.bonitasoft.studio.engine.command.RunProcessCommand$1 returned no status.
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:83)
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:58:19.825
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:58:19.836
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:58:20.170
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:58:20.178
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:58:20.314
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:58:20.386
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:58:20.414
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:58:20.421
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:58:20.848
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:58:21.033
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:58:21.110
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:58:21.118
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:58:21.292
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:58:21.300
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:58:21.440
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 21:58:21.449
+!MESSAGE Login successful.
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-10-28 21:58:25.047
+!MESSAGE An internal error occurred during: "Running...".
+!STACK 0
+java.lang.NullPointerException: Job of type org.bonitasoft.studio.engine.command.RunProcessCommand$1 returned no status.
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:83)
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:08:52.932
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:08:53.032
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:08:54.265
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:08:54.271
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:08:54.827
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:08:55.350
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:08:55.390
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:08:55.397
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:08:55.765
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:08:59.514
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:08:59.560
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:08:59.567
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:09:00.204
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:09:00.209
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:09:00.267
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:09:00.272
+!MESSAGE Login successful.
+
+!ENTRY org.eclipse.ui 4 0 2019-10-28 22:16:55.021
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.base/java.lang.String.substring(Unknown Source)
+	at org.eclipse.jface.internal.databinding.swt.SWTVetoableValueDecorator.lambda$0(SWTVetoableValueDecorator.java:38)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5663)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1386)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1412)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1395)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1184)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7358)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:8254)
+	at org.eclipse.swt.custom.StyledText.doDelete(StyledText.java:2577)
+	at org.eclipse.swt.custom.StyledText.invokeAction(StyledText.java:7182)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1424)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doOperation(JavaSourceViewer.java:199)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:206)
+	at org.eclipse.ui.texteditor.TextOperationAction.lambda$0(TextOperationAction.java:130)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ui.texteditor.TextOperationAction.run(TextOperationAction.java:130)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:96)
+	at jdk.internal.reflect.GeneratedMethodAccessor76.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:320)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:254)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:164)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:497)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:490)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:584)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:653)
+	at org.eclipse.e4.ui.bindings.keys.OutOfOrderListener.handleEvent(OutOfOrderListener.java:75)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5663)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1386)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1412)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1395)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1424)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:803)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3600)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:842)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1962)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6298)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5880)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:3969)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1385)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1581)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4470)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.bonitasoft.studio.expression.editor.viewer.ExpressionViewer.openEditDialog(ExpressionViewer.java:526)
+	at org.bonitasoft.studio.expression.editor.viewer.ExpressionViewer.editControlSelected(ExpressionViewer.java:350)
+	at org.bonitasoft.studio.expression.editor.viewer.ExpressionViewer$3.handleEvent(ExpressionViewer.java:326)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5663)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1386)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4931)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4472)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.bonitasoft.studio.connectors.ui.property.section.ConnectorSection$3.widgetSelected(ConnectorSection.java:264)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5663)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1386)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4931)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4472)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.bonitasoft.studio.application.BonitaStudioApplication.createAndRunWorkbench(BonitaStudioApplication.java:137)
+	at org.bonitasoft.studio.application.BonitaStudioApplication.start(BonitaStudioApplication.java:99)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:17:29.270
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:17:29.327
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:17:32.750
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:17:32.758
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:17:33.631
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:17:33.953
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:17:33.970
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:17:34.013
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:17:34.455
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:17:35.949
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:17:36.006
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:17:36.013
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:17:38.676
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:17:38.685
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:17:38.747
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:17:38.753
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:21:11.364
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:21:11.394
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:21:11.887
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:21:11.909
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:21:13.907
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:21:14.484
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:21:14.517
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:21:14.658
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:21:14.823
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:21:17.037
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:21:17.185
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:21:17.191
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:21:17.810
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:21:17.818
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:21:17.871
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:21:17.877
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:23:55.496
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:23:55.604
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:23:57.029
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:23:57.035
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:23:57.375
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:23:57.721
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:23:57.762
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:23:57.767
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:23:57.918
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:23:59.296
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:23:59.399
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:23:59.404
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:23:59.840
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:23:59.846
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:23:59.924
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:23:59.929
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:29:27.329
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:29:27.448
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:29:31.454
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:29:31.460
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:29:31.903
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:29:32.511
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:29:32.548
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:29:32.554
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:29:32.864
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:29:56.941
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:29:56.990
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:29:56.999
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:29:58.524
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:29:58.530
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:29:58.576
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:29:58.582
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:40:20.376
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:40:20.468
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:40:22.482
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:40:22.488
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:40:23.057
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:40:23.589
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:40:23.627
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:40:23.635
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:40:24.086
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:40:26.179
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:40:26.242
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:40:26.249
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:40:26.733
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:40:26.739
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:40:27.256
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:40:27.260
+!MESSAGE Login successful.
+
+!ENTRY org.eclipse.jdt.groovy.core 4 0 2019-10-28 22:53:05.333
+!MESSAGE Groovy-Eclipse Type Inferencing: Error finding method run in class BonitaScriptContext
+!STACK 1
+Java Model Exception: Java Model Status [BonitaScriptContext.groovy [in <default> [in src-providedGroovy [in My project]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:113)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:602)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:325)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:311)
+	at org.eclipse.jdt.internal.core.Member.getFlags(Member.java:172)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.findMethodNode(TypeInferencingVisitorWithRequestor.java:1936)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitJDT(TypeInferencingVisitorWithRequestor.java:444)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitJDT(TypeInferencingVisitorWithRequestor.java:345)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitCompilationUnit(TypeInferencingVisitorWithRequestor.java:251)
+	at org.codehaus.groovy.eclipse.editor.highlighting.GatherSemanticReferences.findSemanticHighlightingReferences(GatherSemanticReferences.java:45)
+	at org.codehaus.groovy.eclipse.editor.highlighting.GroovySemanticReconciler.reconciled(GroovySemanticReconciler.java:246)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1693)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:222)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:167)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2019-10-28 22:53:05.340
+!MESSAGE BonitaScriptContext.groovy [in <default> [in src-providedGroovy [in My project]]] does not exist
+
+!ENTRY org.eclipse.jdt.groovy.core 4 0 2019-10-28 22:53:05.362
+!MESSAGE Groovy-Eclipse Type Inferencing: Error visiting children of BonitaScriptContext
+!STACK 1
+Java Model Exception: Java Model Status [BonitaScriptContext.groovy [in <default> [in src-providedGroovy [in My project]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:113)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:602)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:325)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:311)
+	at org.eclipse.jdt.internal.core.SourceType.isEnum(SourceType.java:646)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitJDT(TypeInferencingVisitorWithRequestor.java:358)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitCompilationUnit(TypeInferencingVisitorWithRequestor.java:251)
+	at org.codehaus.groovy.eclipse.editor.highlighting.GatherSemanticReferences.findSemanticHighlightingReferences(GatherSemanticReferences.java:45)
+	at org.codehaus.groovy.eclipse.editor.highlighting.GroovySemanticReconciler.reconciled(GroovySemanticReconciler.java:246)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1693)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:222)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:167)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2019-10-28 22:53:05.362
+!MESSAGE BonitaScriptContext.groovy [in <default> [in src-providedGroovy [in My project]]] does not exist
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:53:11.359
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:53:11.365
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:53:11.745
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:53:11.751
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:53:12.106
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:53:12.222
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:53:12.286
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:53:12.294
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:53:12.494
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:53:13.951
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:53:13.999
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:53:14.035
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:53:14.312
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:53:14.320
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:53:14.382
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 22:53:14.388
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:05:17.982
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:05:18.151
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:05:41.469
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:05:41.476
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:05:42.574
+!MESSAGE Building bar for process AgenciaDeViagem (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:05:43.176
+!MESSAGE Build complete for process AgenciaDeViagem (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:05:43.193
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:05:43.200
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:05:43.596
+!MESSAGE Building bar for process ClienteProcess (1.0 )...
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:05:45.415
+!MESSAGE Build complete for process ClienteProcess (1.0 ).
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:05:45.470
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:05:45.475
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:05:46.405
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:05:46.411
+!MESSAGE Login successful.
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:05:46.458
+!MESSAGE Attempt to login as wagner:123
+
+!ENTRY org.bonitasoft.studio.engine 1 0 2019-10-28 23:05:46.464
+!MESSAGE Login successful.
